@@ -14,11 +14,11 @@ Start of your custom new web project in few seconds, from ground up, with great 
 I've created it to automatize the process of starting each *new*, **purely custom, web development project**. Without having to use parts of *Boostrap* in order to speed it up, or to *copy-paste or re-create grid, mixins, functions from previous projects*.
 
 #### Legend: 
-+ Goodies inside
-+ Steps to take
-+ All features explained
-+ Additional advice and recommendation
-+ Author's example projects and info
++ [Goodies inside](../master/README.md#goodies-inside)
++ [Steps to take](../master/README.md#steps-to-take)
++ [All features explained](../master/README.md#all-features-explained)
++ [Advice and recommendation](../master/README.md#advice-and-recommendation)
++ [Author's example projects and info](../master/README.md#authors-example-projects-and-info)
 
 ### Goodies inside:
 
@@ -43,6 +43,6 @@ I've created it to automatize the process of starting each *new*, **purely custo
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.
 
 ### Steps to take:
---In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
+In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
 1. Laptop/PC setup I have:

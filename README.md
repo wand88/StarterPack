@@ -57,6 +57,7 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\ **MyProject**>
     * **GitBash for Windows**, Git's terminal, for all git commands.
     * **Sublime – Code editor**, for coding.
-    * **Installed Ruby Globally**, for SASS to work, after you extract the files from this repo, into your local folder.
-    * **Installed Node.js Globally**, for Grunt to work, after you extract the files from this repo, into your local folder. 
+    * **Installed Ruby**
+    * **gem install sass**, for SASS to work, after you extract the files from this repo, into your local folder.
+    * **Installed Node.js**, for Grunt to work, after you extract the files from this repo, into your local folder. 
     

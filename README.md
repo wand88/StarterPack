@@ -65,3 +65,10 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     Also, Ruby(+ install sass) and Node.js are necessary for items in this repo to work right away, when you extract them.
     
  3. **Download, extract and start coding:**
+    * Click on "Clone or download" button in main repo.
+    * Click on "Download ZIP".
+    * Extract the downloaded ZIP, into ** C:\wamp64\www\ **
+    * Rename the folder, into the name of your project.
+    * Inside the folder, delete: Licence and Readme.md
+    * That's it, you have clean setup to start coding.
+    * Enjoy. :)

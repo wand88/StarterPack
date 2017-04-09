@@ -1,5 +1,5 @@
 # StarterPack
-StarterPack is setup for **new efficient custom web projects**.
+StarterPack is setup for **starting each new, efficient, custom web projects**.
 Packing grid, media mixins, color palette map and function, few, most useful js plugins, all for: **157kb** *(without Google font and images).
 
 Start of your custom new web project in few seconds, from ground up, with great setup from large scale projects, to small web projects.

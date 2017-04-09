@@ -45,7 +45,7 @@ As well, as setup package.json and Grunt file all over again, every time.
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.
 
 ## Steps to take:
-In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
+In order to just download this repository, extract it on your laptop/pc, I will explain everything I use (tools and software installed), for it to work instantly.
 
 1. **Laptop/PC setup I have:**
     * System: Windows 10 64-bit, PC

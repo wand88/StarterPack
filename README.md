@@ -61,3 +61,7 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     * [gem install sass](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241), for SASS to work, after you extract the files from this repo, into your local folder.
     * [Installed Node.js](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981), for Grunt to work, after you extract the files from this repo, into your local folder. 
     
+    If you don't have wamp, sublime and git installed, I would recommend it.
+    Also, Ruby(+ install sass) and Node.js are necessary for items in this repo to work right away, when you extract them.
+    
+ 3. **Download, extract and start coding:**

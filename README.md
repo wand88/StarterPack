@@ -22,15 +22,15 @@ Goodies inside, steps to take, all features explained, additional advice and rec
 
 2. **[Index.html](../master/index.html)**
 
-  Desc: It has all necessary markup for starting a project. All meta info you'll ever need for most projects.
+      It has all necessary markup for starting a project. All meta info you'll ever need for most projects.
 
-  Already linked, css, js to files in root folder, as well as font (Open sans), and header, main and footer.
+      Already linked, css, js to files in root folder, as well as font (Open sans), and header, main and footer.
 
 3. **SASS folder and files**. Organized SCSS partial folders and files (with pre-made code).
 
-  Desc: Just enough variables, mixins, functions and placeholders, you will need.
+      Just enough variables, mixins, functions and placeholders, you will need.
   
-  Including: Grid, More media query options than Boostrap, Color palette map and function, Clearfix classes, etc.
+      Including: Grid, More media query options than Boostrap, Color palette map and function, Clearfix classes, etc.
 
 4. **JS plugins**, few most awesome plugins, that high quality project use daily.
 

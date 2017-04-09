@@ -12,10 +12,10 @@ Easily **create solid website, under 500kb in total**,  with awesomely documente
 Start of your custom new web project in few seconds, from ground up, with great setup for large scale projects, to small web projects.
 
 ```HTML
-I've created it to automatize the process of starting each <i>new</i>, <b>purely custom, web development project</b>. 
+I've created it to automatize the process of starting each new, purely custom, web development project. 
 
-Without having to use parts of <u>Boostrap</u> in order to speed it up, or to <u>copy-paste
-or re-create grid, mixins, functions from previous projects</u>.
+Without having to use parts of Boostrap in order to speed it up, or to copy-paste
+or re-create grid, mixins, functions from previous projects.
 ```
 
 #### Legend: 

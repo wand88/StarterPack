@@ -13,6 +13,9 @@ Start of your custom new web project in few seconds, from ground up, with great 
 
 I've created it to automatize the process of starting each *new*, **purely custom, web development project**. Without having to use parts of *Boostrap* in order to speed it up, or to *copy-paste or re-create grid, mixins, functions from previous projects*.
 
+#### Legend: Goodies inside, all features explained, additional advice and recommendation, author's example projects and info.
+
 ### Goodies inside:
 
-1. 
+1. [Index.html](../blob/master/index.html)
+  - asd

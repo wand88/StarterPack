@@ -34,7 +34,7 @@ Goodies inside, steps to take, all features explained, additional advice and rec
 
 4. **JS plugins**, few most awesome plugins, that high quality project use daily.
 
-  Desc: Like: Smooth scroll, Sections/elements fadein on scroll into viewport, Touch manipulation support, etc.
+        Like: Smooth scroll, Sections/elements fadein on scroll into viewport, Touch manipulation support, etc.
 
 5. Additional, **img folder** for images and favicons, already linked inside index.html.
 

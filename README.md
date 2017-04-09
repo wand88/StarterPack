@@ -118,16 +118,16 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + [jqueryEasing](http://gsgd.co.uk/sandbox/jquery/easing/) advance easing options for jQuery.
     + [pictureFill](https://scottjehl.github.io/picturefill/) better support for HTML5 picture element, and for src and size.
     + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
-    + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, section on scroll into view.
+    + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, sections on scroll into view.
     
 * Node_modules
-    + Just all node_modules, that come with initiating package.json in this local folder. Minifier and autoprefixer that we use with Grunt are included.
+    + Just all node_modules, that come with initiating package.json in this local folder. Minifier and autoprefixer that we use with Grunt, are included.
     
-* SASS
+* **SASS**
 
 And finally SASS folder, which explains the subtle power of this custom StarterPack.
 
-    **It has**:
+**It has**:
     
 1. asd
 

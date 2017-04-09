@@ -81,11 +81,37 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     * Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
     * Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
     ___
-    * **[Index.html](../master/index.html)**
-    asd
+    Files in root:
     
-    * asdasd 
+    * **[index.html](../master/index.html)**
     
-    asda
+    **It has**:
+    + All necessary meta for UTF-8, IE edge, chrome 1 meta, title, viewport meta, google-size verification etc.
+    + Conditional loading scripts, html5shiv.js and respond.js, which create comptaibility for HTML5 elements and CSS3 properties in older browsers.
+    + Linked CSS(to the css folder in root folder), and Google font.
+    + SEO: All the meta tags you would probably use in 95% of the projects. Amazing collection of meta tags, to be as precise as possible. Default meta, apple meta, windows 8 meta, open graph and twitter meta.
+    + Favicons: Also, every needed favicon size, ever. For default browsers and systems, as well as ios system.
+    + Then, Body, Wrapper, Header, Main and Footer (usually starting structure).
+    + In the end: jQuery.min.js latest version linked, then our custom js file with plugins (linked to js folder in root folder), and Google analytics script. That's it for HTML.
+    
+    * package.json
+    
+    Basic setup of package.json, including all necessary add-ons to Grunt, like code minifier and autoprefixer.
+    
+    * Gruntfile.js
+    
+    + Watches all the files in SCSS folder.
+    + Minifies and converts all the code from **style.scss > style.css**
+    + Also, while writing CSS, it adds all necessary prefixes for cross-browser compatibility (last 8 versions).
+    ___
+    Folders in root:
+    
+    * CSS
+    
+    + It only contains style.css, which is the final product of converted and minified SCSS code. It's linked in index.html.
+    
+    * IMG
+    
+    + Aasd
 
 

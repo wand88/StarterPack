@@ -74,7 +74,8 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     * That's it, you have clean setup to start coding.
     * Enjoy. :)
 ## All features explained
-    I will explain all the features, by explaining what is in the folders and files, as well as methodology I use to name classes.
+I will explain all the features, by explaining what is in the folders and files, as well as methodology I use to name classes.
 
 1. **Folder and files organization**
-    asd
+
+

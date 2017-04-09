@@ -77,7 +77,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
 
 ![alt text](https://lazareric.com/img/1.png "Documentation tree")
 
-1.1 Documentation:
+1. Documentation:
     * Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
     * Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
 

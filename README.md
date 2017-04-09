@@ -26,9 +26,8 @@ I've created it to automatize the process of starting each *new*, **purely custo
 
 2. **[Index.html](../master/index.html)**
 
-      * It has all necessary markup for starting a project. All meta info you'll ever need for most projects.
-
-      * Already linked, css, js to files in root folder, as well as font (Open sans), and header, main and footer.
+     * It has all necessary markup for starting a project. All meta info you'll ever need for most projects.
+     * Already linked, css, js to files in root folder, as well as font (Open sans), and header, main and footer.
 
 3. **[SASS folder and files](../master/sass)**. Organized SCSS partial folders and files (with pre-made code).
 

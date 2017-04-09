@@ -94,10 +94,10 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + Then, Body, Wrapper, Header, Main and Footer (usually starting structure).
     + In the end: jQuery.min.js latest version linked, then our custom js file with plugins (linked to js folder in root folder), and Google analytics script. That's it for HTML.
     
-* **[package.json(https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**
+* **[package.json](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**
     + Basic setup of package.json, including all necessary add-ons to Grunt, like code minifier and autoprefixer.
     
-* **[Gruntfile.js(https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**
+* **[Gruntfile.js](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**
     + Watches all the files in SCSS folder.
     + Minifies and converts all the code from **style.scss > style.css**
     + Also, while writing CSS, it adds all necessary prefixes for cross-browser compatibility (last 8 versions).

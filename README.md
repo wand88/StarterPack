@@ -54,4 +54,9 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     * This isn't important that much, but, there's the info.
 2. **Tools I use for coding**
     * **WAMP – Local server**. This is where I keep all my projects, and from where they are connected to theirs github repo.
-    * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\**MyProject**>
+    * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\ **MyProject**>
+    * **GitBash for Windows**, Git's terminal, for all git commands.
+    * **Sublime – Code editor**, for coding.
+    * **Installed Ruby Globally**, for SASS to work, after you extract the files from this repo, into your local folder.
+    * **Installed Node.js Globally**, for Grunt to work, after you extract the files from this repo, into your local folder. 
+    

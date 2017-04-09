@@ -81,8 +81,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     * Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
     * Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
     ___
-    * index.html
-    
+    * **[Index.html](../master/index.html)**
     asd
     
     * asdasd 

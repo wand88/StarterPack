@@ -11,14 +11,7 @@ Easily **create solid website, under 500kb in total**,  with awesomely documente
 
 Start of your custom new web project in few seconds, from ground up, with great setup for large scale projects, to small web projects.
 
-```HTML
-I've created it to automatize the process of starting each new, purely custom, web development project. 
-
-Without having to use parts of Boostrap in order to speed it up, or to copy-paste
-or re-create grid, mixins, functions from previous projects.
-
-As well, as setup package.json and Grunt file all over again, every time.
-```
+> I've created it to automatize the process of starting each **new, *purely custom*, web development project**. Without having to use parts of *Boostrap* in order to speed it up, or to *copy-paste or re-create grid, mixins, functions from previous projects*. As well, as *setup package.json and Grunt file* all over again, every time.
 
 ### Legend: 
 + [Goodies inside](../master/README.md#goodies-inside)
@@ -77,5 +70,11 @@ In order to just download this repository, extract it on your laptop/pc, I will 
 I will explain all the features, by explaining what is in the folders and files, as well as methodology I use to name classes.
 
 1. **Folder and files organization**
+
+For documentation I use very flexible structure, which is easily scalable for large projects, as well as small ones.
+
+It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=1868618249).
+
+![alt text](https://lazareric.com/img/1.png "Documentation tree")
 
 

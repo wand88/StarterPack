@@ -53,11 +53,11 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     * Graphic card: Radeon R7, 4C+8G
     * This isn't important that much, but, there's the info.
 2. **Tools I use for coding**
-    * **WAMP – Local server**. This is where I keep all my projects, and from where they are connected to theirs github repo.
+    * **[WAMP – Local server](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241)**. This is where I keep all my projects, and from where they are connected to theirs github repo.
     * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\ **MyProject**>
-    * **GitBash for Windows**, Git's terminal, for all git commands.
+    * **[GitBash for Windows](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**, Git's terminal, for all git commands.
     * **Sublime – Code editor**, for coding.
     * **Installed Ruby**
-    * **gem install sass**, for SASS to work, after you extract the files from this repo, into your local folder.
-    * **Installed Node.js**, for Grunt to work, after you extract the files from this repo, into your local folder. 
+    * **[gem install sass](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241)**, for SASS to work, after you extract the files from this repo, into your local folder.
+    * **[Installed Node.js](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**, for Grunt to work, after you extract the files from this repo, into your local folder. 
     

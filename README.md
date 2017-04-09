@@ -39,7 +39,7 @@ As well, as setup package.json and Grunt file all over again, every time.
     * Just enough variables, mixins, functions and placeholders, you will need. 
     * Including: Grid, More media query options than Boostrap, Color palette map and function, Clearfix classes, etc.
 
-4. **[JS plugins](../master/js)**, few most awesome plugins, that high quality project use daily.
+4. **[JS plugins](../master/js)**, few most awesome plugins, that high quality projects use daily.
     * Like: Smooth scroll, Sections/elements fadein on scroll into viewport, Touch manipulation support, etc.
 
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.

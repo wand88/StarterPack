@@ -94,8 +94,9 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + Then, Body, Wrapper, Header, Main and Footer (usually starting structure).
     + In the end: jQuery.min.js latest version linked, then our custom js file with plugins (linked to js folder in root folder), and Google analytics script. That's it for HTML.
     
-    * package.json
-    + Basic setup of package.json, including all necessary add-ons to Grunt, like code minifier and autoprefixer.
+* package.json
+
++ Basic setup of package.json, including all necessary add-ons to Grunt, like code minifier and autoprefixer.
     
     * Gruntfile.js
     + Watches all the files in SCSS folder.

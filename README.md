@@ -29,7 +29,7 @@ As well, as setup package.json and Grunt file all over again, every time.
 
 ## Goodies inside:
 
-1. Entire package has **SASS and Grunt file** (with code compression and autoprefixing), **already setup**.
+1. Entire package has **[package.json](../master/package.json) and [Grunt file](../master/Gruntfile.js)** (with code compression and autoprefixing), **already setup**.
 
 2. **[Index.html](../master/index.html)**
      * It has all necessary markup for starting a project. All meta info you'll ever need for most projects.

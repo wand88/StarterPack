@@ -47,17 +47,17 @@ As well, as setup package.json and Grunt file all over again, every time.
 ## Steps to take:
 In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
-1. **Laptop/PC setup I have**
+1. **Laptop/PC setup I have:**
     * System: Windows 10 64-bit, PC
     * Processor: AMD A10-7860K, 3.60GHz
     * Graphic card: Radeon R7, 4C+8G
     * This isn't important that much, but, there's the info.
-2. **Tools I use for coding**
-    * **[WAMP – Local server](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241)**. This is where I keep all my projects, and from where they are connected to theirs github repo.
+2. **Tools I use for coding:**
+    * [WAMP – Local server](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241). This is where I keep all my projects, and from where they are connected to theirs github repo.
     * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\ **MyProject**>
-    * **[GitBash for Windows](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**, Git's terminal, for all git commands.
+    * [Git Bash for Windows](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981), Git's terminal, for all git commands.
     * **Sublime – Code editor**, for coding.
     * **Installed Ruby**
-    * **[gem install sass](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241)**, for SASS to work, after you extract the files from this repo, into your local folder.
-    * **[Installed Node.js](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**, for Grunt to work, after you extract the files from this repo, into your local folder. 
+    * [gem install sass](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=630269241), for SASS to work, after you extract the files from this repo, into your local folder.
+    * [Installed Node.js](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981), for Grunt to work, after you extract the files from this repo, into your local folder. 
     

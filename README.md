@@ -18,7 +18,6 @@ I've created it to automatize the process of starting each *new*, **purely custo
 ### Goodies inside:
 
 1. [Index.html](../master/index.html)
+* asdasd
 
---1. List sub item
-
---* asdasd
+2. as

@@ -16,6 +16,8 @@ I've created it to automatize the process of starting each new, purely custom, w
 
 Without having to use parts of Boostrap in order to speed it up, or to copy-paste
 or re-create grid, mixins, functions from previous projects.
+
+As well, as setup package.json and Grunt file all over again, every time.
 ```
 
 #### Legend: 

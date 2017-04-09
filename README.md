@@ -43,5 +43,6 @@ I've created it to automatize the process of starting each *new*, **purely custo
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.
 
 ### Steps to take:
+In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
-1. 
+1. Laptop/PC setup I have:

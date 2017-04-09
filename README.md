@@ -70,6 +70,6 @@ In order to just download this repository, extract it on your laptop/pc, and eve
     * Extract the downloaded ZIP, into **C:\wamp64\www**
     * Rename the folder, into the name of your project.
     * Inside the folder, delete: LICENCE and README.md
-    * Choose whether or not to delete **.gitignore**, depending where you will later send files to the remote repo (on github). 
+    * Choose whether or not to delete **.gitignore**, depending if you will later git push files to the remote repo (on github). 
     * That's it, you have clean setup to start coding.
     * Enjoy. :)

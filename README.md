@@ -49,7 +49,7 @@ In order to just download this repository, extract it on your laptop/pc, and eve
 
 1. **Laptop/PC setup I have:**
     * System: Windows 10 64-bit, PC
-    * Processor: AMD A10-7860K, 3.60GHz
+    * Processor: AMD A10-7860K, 3.60GHz, 12Gb RAM
     * Graphic card: Radeon R7, 4C+8G
     * This isn't important that much, but, there's the info.
 2. **Tools I use for coding:**

@@ -25,23 +25,19 @@ I've created it to automatize the process of starting each *new*, **purely custo
 1. Entire package has **SASS and Grunt file** (with code compression and autoprefixing), **already setup**.
 
 2. **[Index.html](../master/index.html)**
-
      * It has all necessary markup for starting a project. All meta info you'll ever need for most projects.
      * Already linked, css, js to files in root folder, as well as font (Open sans), and header, main and footer.
 
 3. **[SASS folder and files](../master/sass)**. Organized SCSS partial folders and files (with pre-made code).
-
-      Just enough variables, mixins, functions and placeholders, you will need.
-  
-      Including: Grid, More media query options than Boostrap, Color palette map and function, Clearfix classes, etc.
+    * Just enough variables, mixins, functions and placeholders, you will need. 
+    * Including: Grid, More media query options than Boostrap, Color palette map and function, Clearfix classes, etc.
 
 4. **[JS plugins](../master/js)**, few most awesome plugins, that high quality project use daily.
-
-      Like: Smooth scroll, Sections/elements fadein on scroll into viewport, Touch manipulation support, etc.
+    * Like: Smooth scroll, Sections/elements fadein on scroll into viewport, Touch manipulation support, etc.
 
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.
 
 ### Steps to take:
 In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
-1. Laptop/PC setup I have:
+1. Laptop/PC setup I have

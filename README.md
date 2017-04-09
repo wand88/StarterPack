@@ -69,7 +69,7 @@ In order to just download this repository, extract it on your laptop/pc, I will 
 ## All features explained
 I will explain all the features, by explaining what is in the folders and files, as well as methodology I use to name classes.
 
-1. **Folder and files organization**
+1. **Folder and files organization methodology**
 
 For documentation I use very flexible structure, which is easily scalable for large projects, as well as small ones.
 
@@ -77,7 +77,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
 
 ![alt text](https://lazareric.com/img/1.png "Documentation tree")
 
-1. Documentation methodology:
+**Documentation:**
     * Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
     * Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
     ___
@@ -117,7 +117,18 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + [imagesLoaded](http://imagesloaded.desandro.com/) lets us know, which images are loaded, which are not (shows progress), also adds broken image (to the image that failed loading).
     + [jqueryEasing](http://gsgd.co.uk/sandbox/jquery/easing/) advance easing options for jQuery.
     + [pictureFill](https://scottjehl.github.io/picturefill/) better support for HTML5 picture element, and for src and size.
-    + [smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP) one of my favourites, smooth scroll to the anchor link on the page.
-    + 
+    + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
+    + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, section on scroll into view.
+    
+* Node_modules
+    + Just all node_modules, that come with initiating package.json in this local folder. Minifier and autoprefixer that we use with Grunt are included.
+    
+* SASS
+
+And finally SASS folder, which explains the subtle power of this custom StarterPack.
+
+    It has:
+    
+    + asd
 
 

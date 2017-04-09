@@ -20,14 +20,14 @@ or re-create grid, mixins, functions from previous projects.
 As well, as setup package.json and Grunt file all over again, every time.
 ```
 
-#### Legend: 
+### Legend: 
 + [Goodies inside](../master/README.md#goodies-inside)
 + [Steps to take](../master/README.md#steps-to-take)
 + [All features explained](../master/README.md#all-features-explained)
 + [Advice and recommendation](../master/README.md#advice-and-recommendation)
 + [Author's example projects and info](../master/README.md#authors-example-projects-and-info)
 
-### Goodies inside:
+## Goodies inside:
 
 1. Entire package has **SASS and Grunt file** (with code compression and autoprefixing), **already setup**.
 
@@ -44,7 +44,7 @@ As well, as setup package.json and Grunt file all over again, every time.
 
 5. Additional, **[img folder](../master/img)** for images and favicons, already linked inside index.html.
 
-### Steps to take:
+## Steps to take:
 In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
 1. Laptop/PC setup I have

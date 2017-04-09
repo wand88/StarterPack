@@ -3,7 +3,7 @@ StarterPack is a setup for **starting each new, efficient, custom web project**.
 
 Packing **best practice** grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 
-INDEX.HTML + CSS + JS: **157kb** *(without Google font and images).*
+INDEX.HTML + CSS + JS: **166kb** *(without Google font and images).*
 
 In general, this setup, is *all you need for 85% of web projects*.
 
@@ -119,6 +119,8 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + [pictureFill](https://scottjehl.github.io/picturefill/) better support for HTML5 picture element, and for src and size.
     + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
     + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, sections on scroll into view.
+    + **[Sticky-kit](http://leafo.net/sticky-kit/#examples)** provides an easy way to attach elements to the page when the user scrolls.
+    + **[Headroom.js](http://wicky.nillia.ms/headroom.js/)**, allows you to react to the user's scroll. Shows/Hides and animates header.
     
 * [Node_modules](../master/node_modules)
     + Just all node_modules, that come with initiating package.json in this local folder. Minifier and autoprefixer that we use with Grunt, are included.

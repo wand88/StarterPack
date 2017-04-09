@@ -1,7 +1,7 @@
 # StarterPack
 StarterPack is setup for **starting each new, efficient, custom web projects**.
 
-Packing grid, very useful mixins, color palette map and function, few, most useful js plugins.
+Packing grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 
 All for: **157kb** *(without Google font and images).*
 

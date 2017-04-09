@@ -47,4 +47,11 @@ As well, as setup package.json and Grunt file all over again, every time.
 ## Steps to take:
 In order to just download this repository, extract it on your laptop/pc, and everything to start working well, I will explain the setup and tools I use for coding.
 
-1. Laptop/PC setup I have
+1. **Laptop/PC setup I have**
+    * System: Windows 10 64-bit, PC
+    * Processor: AMD A10-7860K, 3.60GHz
+    * Graphic card: Radeon R7, 4C+8G
+    * This isn't important that much, but, there's the info.
+2. **Tools I use for coding**
+    * **WAMP – Local server**. This is where I keep all my projects, and from where they are connected to theirs github repo.
+    * **Windows Powershell** for initiating Grunt, within C:\wamp64\www\**MyProject**>

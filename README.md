@@ -104,13 +104,13 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     ___
     Folders in root:
     
-* CSS
+* [CSS](../master/css)
     + It only contains style.css, which is the final product of converted and minified SCSS code. It's linked in index.html.
     
-* IMG  
+* [IMG](../master/img) 
     + All images go to img root folder and all favicons go to favicon subfolder.
     
-* JS – Light collection, to create **high quality look and feel**, web project.
+* [JS](../master/js) – Light collection, to create **high quality look and feel**, web project.
     
     **It has next plugins:**
     + [Hammer.js](http://hammerjs.github.io/) provides better touch manipulation support.
@@ -120,10 +120,10 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
     + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, sections on scroll into view.
     
-* Node_modules
+* [Node_modules](../master/node_modules)
     + Just all node_modules, that come with initiating package.json in this local folder. Minifier and autoprefixer that we use with Grunt, are included.
     
-* **SASS**
+* **[SASS](../master/sass)**
 
 And finally SASS folder, which explains the subtle power of this custom StarterPack.
 

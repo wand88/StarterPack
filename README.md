@@ -104,12 +104,15 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     ___
     Folders in root:
     
-    * CSS
-    
+* CSS
     + It only contains style.css, which is the final product of converted and minified SCSS code. It's linked in index.html.
     
-    * IMG
+* IMG  
+    + All images go to img root folder and all favicons go to favicon subfolder.
     
-    + Aasd
+* JS  
+    
+    **It has**
+    + asd
 
 

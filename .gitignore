@@ -1,0 +1,5 @@
+# ignores ".sass-cache", "node_modules" and "sass" folders
+.sass-cache
+
+# ignores all files with ".css.map extension
+*.css.map

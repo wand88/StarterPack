@@ -1,0 +1,108 @@
+
+
+// Here is all scss code for variables and maps 
+
+// Start code here 
+
+
+
+// --- Font --- 
+
+
+// -- Base Font -- 
+
+$base__font-size: 16px;
+$base__line-height: 24px;
+
+
+// -- Font Family --
+
+$font-family--primary: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family--secondary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// -- Font Weights --
+
+$font-weight--light: 300;
+$font-weight--regular: 400;
+$font-weight--bold: 700;
+
+
+
+// --- Colors --- 
+
+
+// -- Descriptive Base Colors -- 
+
+// - Black and White - 
+
+$white: #fff;
+$black: #0b0b0b;
+$grey: #84898F;
+
+
+// - Colorful - 
+
+$fountain-blue: #52bab3;
+$emerald: #5ece7f;
+$sungalo: #e67478;
+$coral: #ff784f;
+$purple-majesty: #9279c3;
+$scooter: #39add1;
+
+
+// -- Color Usage -- 
+
+$color-primary: $fountain-blue;
+$color-secondary: $scooter;
+$color-accent: $emerald;
+$color-shadow: rgba($black, .08);
+
+
+
+// --- Color Maps --- 
+
+
+// -- Simple Color Map Palette -- 
+
+// Connected to bg-color() mixin, we can generate additional classes with it
+
+$ui-color: ( 
+	default: $fountain-blue,
+	success: $emerald,
+	error: $sungalo,
+	warning: $coral,
+	info: $purple-majesty ); 
+
+
+// -- All Color Palettes -- 
+
+// Conected to palette() function, through which we call colors 
+
+$palettes: (
+ grey: (
+  xx-light: lighten($grey, 43%),
+  x-light: lighten($grey, 35%),
+  light: lighten($grey, 12%),
+  base: $grey,
+  dark: darken($grey, 8%),
+  x-dark: darken($grey, 16%)
+ ),
+ black: (
+  light: lighten($black, 10%),
+  base: $black,
+  dark: darken($black, 10%)
+ ),
+ primary: (
+  light: lighten($color-primary, 10%),
+  base: $color-primary,
+  dark: darken($color-primary, 10%)
+ ),
+ secondary: (
+  light: lighten($color-secondary, 10%),
+  base: $color-secondary,
+  dark: darken($color-secondary, 10%)
+ )
+);
+
+

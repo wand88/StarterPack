@@ -1,0 +1,62 @@
+
+
+// Here is all scss code for state modifiers 
+
+// Start code here 
+
+
+
+// --- Font Classes ---
+
+
+// -- Font Family --
+
+.font-family--primary {
+  font-family: $font-family--primary; }
+
+.font-family--secondary {
+  font-family: $font-family--secondary; }
+
+
+// -- Font Weight -- 
+
+.font-weight--light {
+  font-weight: $font-weight--light; }
+
+.font-weight--regular {
+  font-weight: $font-weight--regular; }
+
+.font-weight--bold {
+  font-weight: $font-weight--bold; }
+
+
+// -- Text Align --
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-nowrap {
+  white-space: nowrap; }
+
+
+// -- Text Transform -- 
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+

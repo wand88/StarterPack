@@ -1,0 +1,48 @@
+
+
+// Here is all scss code for layout blocks and elements 
+
+// Start code here 
+
+
+
+// --- Container ---
+
+// Base container is fluid: .container (width: 100%).
+// Others as necessary are .container-(min-width query value)-(width of the container). ie. container-1100-1000
+// Use @media queries and @extend %container inside them + width of new container, to create new .container-*-* classes 
+// ie. .container-768-708 { @extend %container; @include min-768 { width: 708px; } } 
+
+// Base Container 
+
+.container {
+  @extend %container; } 
+
+
+
+// --- Row --- 
+
+// Use @media queries and @extend %row inside them to create new .row-* classes 
+// Base row 
+
+.row {
+	@extend %row; } 
+
+
+
+// --- Other Layout Classes --- 
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; } 
+
+.main {
+    position: relative;
+    width: 100%;
+    min-height: 100%; // Fallback to "vh" unit 
+    min-height: calc(100vh - 150px); // Counting in header's height 50px, and footer's height 100px. To see everything in at least 100% height
+    z-index: 2000; }
+
+

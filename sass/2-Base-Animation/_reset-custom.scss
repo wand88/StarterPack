@@ -1,0 +1,90 @@
+
+
+// Here is all scss code for additional reset (additional on _reset-normalize.scss) 
+
+// Start code here 
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  background: transparent;
+  box-sizing: border-box;
+  touch-action: manipulation; }
+
+
+// General Elements
+
+img, embed, object, video {
+  max-width:100%;
+  height:auto; }
+
+button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style-type: none; }
+
+input {
+  appearance:none; }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition: background-color 50000s ease-in-out 0s; }
+
+input[type="search"] {
+  appearance:none;
+  box-sizing: border-box;
+  border-style: none;
+  border:none; }
+
+input[type="tel"] {
+  appearance:none;
+  box-sizing: border-box; }
+
+input[type="email"] {
+  appearance:none;
+  box-sizing: border-box;
+  border-style: none;
+  border: none;
+  border-radius: 0; }
+
+input[type="text"] {
+  appearance:none;
+  box-sizing: border-box; }
+
+input[type="date"] {
+  appearance:none;
+  box-sizing: border-box; }
+
+input[type="password"] {
+  appearance:none;
+  box-sizing: border-box; }
+
+textarea {
+  appearance:none;
+  box-sizing: border-box; }
+
+datalist {
+  appearance:none;
+  box-sizing: border-box; }
+
+input[type="search"]::-webkit-search-cancel-button {
+  appearance: searchfield-cancel-button; }
+
+select {
+  appearance: none; }
+
+select::-ms-expand { /* for IE 11 */
+  display: none; }
+
+input[type="checkbox"] {
+  appearance:checkbox; } 
+
+

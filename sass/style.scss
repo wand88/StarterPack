@@ -1,0 +1,9 @@
+
+
+// Importing partials.scss file, which has all index.scss files imported within its self
+// Grunt is further compiling all the imported code here, to style.css
+// Process: partial files (from each folder) to index.scss file (from the same folder) > index.scss files (from each folder) to partials.scss > partials.scss to style.scss > style.scss to style.css
+
+
+@import 'partials';
+

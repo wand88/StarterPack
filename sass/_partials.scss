@@ -1,0 +1,12 @@
+
+
+// Importing index.scss files from each partials folder
+// Each index.scss has imported scss code, from the partial files within its own folder
+
+
+@import '1-Variable-Mixin-Function-Placeholder/index';
+@import '2-Base-Animation/index';
+@import '3-Layout/index';
+@import '4-Module/index';
+@import '5-State/index';
+@import '6-Theme/index';

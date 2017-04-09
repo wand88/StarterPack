@@ -1,0 +1,40 @@
+
+
+// Here is all scss code for functions 
+
+// Start code here 
+
+
+
+// --- Calculate PX to EM --- 
+
+// ie. font-size: em(24px), result: font-size: 1.5em;
+// ie. padding: em(48px) 0; result: padding: 3em 0;
+
+
+@function em($target, $context: $base__font-size) {
+	@return ($target / $context) *1em;
+}
+
+
+
+// --- Font size in REM with PX fallback ---
+
+// Using it with @mixin px-rem
+
+
+@function rem($size) {
+	$rem: $size / 16px;
+	@return $rem * 1rem; } 
+
+
+
+// --- Color Palette --- 
+
+// Calling a color from color palette (map)
+
+
+@function palette($palette, $shade: 'base') {
+	@return map-get(map-get($palettes, $palette), $shade); } 
+
+

@@ -110,7 +110,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
 * IMG  
     + All images go to img root folder and all favicons go to favicon subfolder.
     
-* JS  
+* JS – Light collection, to create **high quality look and feel**, web project.
     
     **It has next plugins:**
     + [Hammer.js](http://hammerjs.github.io/) provides better touch manipulation support.

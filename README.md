@@ -67,8 +67,9 @@ In order to just download this repository, extract it on your laptop/pc, and eve
  3. **Download, extract and start coding:**
     * Click on "Clone or download" button in main repo.
     * Click on "Download ZIP".
-    * Extract the downloaded ZIP, into ** C:\wamp64\www\ **
+    * Extract the downloaded ZIP, into **C:\wamp64\www**
     * Rename the folder, into the name of your project.
-    * Inside the folder, delete: Licence and Readme.md
+    * Inside the folder, delete: LICENCE and README.md
+    * Choose whether or not to delete **.gitignore**, depending where you will later send files to the remote repo (on github). 
     * That's it, you have clean setup to start coding.
     * Enjoy. :)

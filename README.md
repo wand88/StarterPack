@@ -1,5 +1,5 @@
 # StarterPack
-StarterPack is setup for **starting each new, efficient, custom web projects**.
+StarterPack is a setup for **starting each new, efficient, custom web projects**.
 
 Packing grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 

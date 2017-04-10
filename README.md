@@ -139,7 +139,7 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 Now each folder, files and goodies within.
 
-1. **1-Variable-Mixin-Function-Placeholder**
+1. **Variable-Mixin-Function-Placeholder**
 + Variable-Map: all variables and sass maps.
     * Variables for: base font, font family, font weights and colors (black and white colors, colorful named colors, color usagage).
     * Maps for: Simple color map for $ui-colros and complex nested map $palettes.
@@ -206,3 +206,41 @@ Now each folder, files and goodies within.
     * Layout contains all the container, row classes, as well as wrapper, main, and any additional similar type layout classes.
     
  + **Header**
+    * Header contains, all the blocks and elements scss code (BEM naming class methodology), for header part of the website only.
+ 
+ + **Footer**
+    * Footer contains, all the blocks and elements scss code, for footer part of the website only.
+ 
+ + **Preloader**
+    * If you have made preloader, this is where you will put all classes for bloks and elements, related to it.
+    
++ **Index**
+    * In index files, we import all of the files within that folder.
+    
+4. Module
+    * Ok, we have folders, for all the mixins, functions, placeholders, variabels, reset, animations and major layout parts of our website. **This folder contains the code for specific funcionalities like: forms, buttons, post-thumbnials, slider, etc.**
+    * It should only contain blocks and elements regarding those specific funcionalities, modifiers go in next 2 folders.
+    * + as always, index file, where we import all of those files within this folder.
+    
+5. State
+    * State folder, has all the code, which changes the state of elements, classes on our website, on hover, event, etc.
+    * Also, contains all very cool **Hide and Display** classes for all **Media Query Breakpoints**.
+    * Like:
+    
+            ie. .font-family--primary / .font-weight--light / .text-left / .srt (Screen Reader Text, class to hide text)
+            .font-heading / .font-subheading / .font-body / .clearfix / .image-responsive / .iframe-responsive
+            Helper Classes (mobile first): hide-768 (display: none, 768px and up) / display-1200-inline-block (understandable);
+        
+6. Theme
+    * Theme has all the class modifiers, regarding colors.
+    * Here, we used complex mixin class generator, to generate classes for bg-colors and colors from map $palettes.
+    
+            ie. .bg-color--white-base / .bg-color-grey--x-light / .color-primary--base / .color-secondary--dark
+            
+___
+
+In general, that's all of it.
+Explained it as short as possible, but of course go through each file, to see what's in it, I used comments to explain it well with examples as well.
+
+Of course, this is again, just a setup, remove, add, what ever you wish on it. :)
+

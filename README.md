@@ -251,3 +251,11 @@ Explained it as short as possible, but of course go through each file, to see wh
 
 Of course, this is again, just a setup, remove, add, what ever you wish on it. :)
 
+## Advice and recommendation
+
+Few advices regarding class naming methodology, as well as few js plugins for specific functionalities.
+
+1. Try to only use classes. No id's, no complex css specificity.
+Check out [my small tutorial](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=1868618249), custom BEM, on how to do it. You will have almost **0% Specificity issues**.
+
+2. 

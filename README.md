@@ -139,7 +139,27 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 Now each folder, files and goodies within.
 
-1. **1-Variable-Mixin-Function-Placeholder**
-    + Variable-Map: contains all variables and sass maps.
+2. **1-Variable-Mixin-Function-Placeholder**
++ Variable-Map: all variables and sass maps.
+    * Variables for: base font, font family, font weights and colors (black and white colors, colorful named colors, color usagage).
+    * Maps for: Simple color map for $ui-colros and complex nested map $palettes.
+    
+**Awesome part**: These color palettes, are what we use to generate bg-colors and color standalone classes, later on, for clean (non repetative code.
+
++ Mixin: all mixins we use in the code.
+    * **Sprite image map** mixin, to include icon in the class, with retina icon fallback (from another sprite image map).
+    * **Pseudo-elements**, easily include before or after pseudo element on any class, with premade code within mixin.
+    * **Font size in REM with PX fallback**
+    * **Simple $map class generator** generate additional classes for $ui-colors, on a class (button--info, button--success, etc.).
+    * **Complex $map class generator** generates any class, from nested map $palettes (bg-grey--base, color-primary--base, etc.).
+    * **Media Breakpoints** mixin — I've created **more Media Query options than Bootstrap**, and which are most used. Breakpoints: 320px = 20em; 480px = 30em; 640px = 40em; 768px = 48em; 980px = 61.25em; 1024px = 64em; 1100px = 68.75em; 1200px = 75em; 1440px = 90em; 1650px = 103.125em; 1920px = 120em; // Breakpoints are in 'EM' unit, which is the best one for Media Queries.
+    
+**Awesome part**: Apart from most usefull mixin collection, yet light, you have all those Media Queries, for mobile-first quries, tv-first, and queries in between (all combinations of breakpoints).
+
+    ie. @include min-768 {} or @include max-1200 {} or @include min-640-max-1439 {}
+ 
+ + Functions: all functions.
     * asd
+
+
 

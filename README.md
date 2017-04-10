@@ -237,7 +237,7 @@ Now each folder, files and goodies within.
     * Theme has all the class modifiers, regarding colors.
     * Here, we used complex mixin class generator, to generate classes for bg-colors and colors from map $palettes.
     
-            ie. .bg-color--white-base / .bg-color-grey--x-light / .color-primary--base / .color-secondary--dark
+            ie. .bg-white--base / .bg-grey--xx-dark / .color-primary--base / .color-secondary--dark
 
 7. [partials and style.scss file](../master/sass)
     * In partials.scss we import all of the index files, from all other folders (that already have imported all the files from their respective folders).

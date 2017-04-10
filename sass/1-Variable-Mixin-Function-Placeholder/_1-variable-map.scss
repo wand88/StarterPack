@@ -67,7 +67,7 @@ $color-shadow: rgba($black, .08);
 
 // Connected to bg-color() mixin, we can generate additional classes with it
 
-$ui-color: ( 
+$ui-colors: ( 
 	default: $fountain-blue,
 	success: $emerald,
 	error: $sungalo,

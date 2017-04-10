@@ -255,7 +255,29 @@ Of course, this is again, just a setup, remove, add, what ever you wish on it. :
 
 Few advices regarding class naming methodology, as well as few js plugins for specific functionalities.
 
-1. Try to only use classes. No id's, no complex css specificity.
-Check out [my small tutorial](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=1868618249), custom BEM, on how to do it. You will have almost **0% Specificity issues**.
+1. Try to **only use classes**. No id's, no complex css specificity.
+Check out [my small tutorial](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=1868618249), custom BEM, on how to do it. You will have almost **0% specificity issues**.
 
-2. 
+2. [Great typography, font combinations and color palettes](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=2008705279)
+I will soon create many great working font combinations (free fonts), for you to use, as well as color palettes, for good design.
+
+3. In the link above, I will create custom code snippets, for many front end functionalities:
+    * Different types of headers.
+    * Different types of footer.
+    * Different types of sections, with color, video background, etc.
+    * Tabs, accordians, timeline effect.
+    * Awesome Preloaders, and more.
+    
+[Check here](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=2008705279) in a month or so, for all those **free, high quality, copy-paste goodies**. :)
+
+4. Also, in the same tab in linked spreadsheet above, there's a column on the right, "js", with many awesome, light weight but greatly made js plugins, for many functionalities.
+
+**I will continuously improve this repo, as well as that spreadsheet with new copy-paste design and code for you**
+
+## Author's example projects and info
+
+**Example projects with this repo as a setup, coming soon.
+
+**Author**: Lazar Erić, lazar.eric1@gmail.com
+
+Let me know, if you have any comments, to make this repo, even better and more powerful for our projects. Cheers, enjoy!

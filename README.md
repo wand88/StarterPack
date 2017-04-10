@@ -69,7 +69,7 @@ In order to just download this repository, extract it on your laptop/pc, I will 
 ## All features explained
 I will explain all the features, by explaining what is in the folders and files, as well as methodology I use to name classes.
 
-1. **Folder and files organization methodology**
+### **Folder and files organization methodology**
 
 For documentation I use very flexible structure, which is easily scalable for large projects, as well as small ones.
 
@@ -77,7 +77,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
 
 ![alt text](https://lazareric.com/img/1.png "Documentation tree")
 
-2. **Documentation:**
+### **Documentation:**
     * Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
     * Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
     ___

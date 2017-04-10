@@ -144,7 +144,7 @@ Now each folder, files and goodies within.
     * Variables for: base font, font family, font weights and colors (black and white colors, colorful named colors, color usagage).
     * Maps for: Simple color map for $ui-colros and complex nested map $palettes.
     
-**Awesome part**: These color palettes, are what we use to generate bg-colors and color standalone classes, later on, for clean (non repetative code.
+**Awesome part**: These color palettes, are what we use to generate bg-colors and color standalone classes, later on, for clean (non repetative code).
 
 + Mixin: all mixins we use in the code.
     * **Sprite image map** mixin, to include icon in the class, with retina icon fallback (from another sprite image map).
@@ -158,8 +158,25 @@ Now each folder, files and goodies within.
 
     ie. @include min-768 {} or @include max-1200 {} or @include min-640-max-1439 {}
  
- + Functions: all functions.
-    * asd
++ Functions: all functions.
+    * **Calculate 'EM' from 'PX'**
+    * **Calculate 'REM' from size, with 'PX' fallback**
+    * **Get color, from color map $palettes**
 
-
-
+    ie. padding: em(48px) 0; / font-size: rem(16); / color: palette(grey, base);
+    
++ Placeholders: all placeholders.
+    * **Clearfix**
+    * **Pseudo-elements** repetative properties
+    * **Container**
+    * **Row**
+    
++ Index
+    * In index files, we import all of the files within that folder.
+    
+ 3. **Animation-Base** 
+ 
++ Animation-animate
+    * All the **animate.css** code.
+    
++ 

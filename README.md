@@ -137,7 +137,9 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
     * 5-State
     * 6-Theme
 
-2. Files inside folders:
-+ **1-Variable-Mixin-Function-Placeholder**
+Now each folder, files and goodies within.
+
+1. **1-Variable-Mixin-Function-Placeholder**
+    + Variable-Map: contains all variables and sass maps.
     * asd
 

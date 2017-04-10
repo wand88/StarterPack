@@ -227,9 +227,11 @@ Now each folder, files and goodies within.
     * Also, contains all very cool **Hide and Display** classes for all **Media Query Breakpoints**.
     * Like:
     
-            ie. .font-family--primary / .font-weight--light / .text-left / .srt (Screen Reader Text, class to hide text)
-            .font-heading / .font-subheading / .font-body / .clearfix / .image-responsive / .iframe-responsive
-            Helper Classes (mobile first): hide-768 (display: none, 768px and up) / display-1200-inline-block (understandable);
+            ie. .font-family--primary / .font-weight--light / .text-left
+            .srt (Screen Reader Text, class to hide text) / .font-heading / .font-subheading
+            .font-body / .clearfix / .image-responsive / .iframe-responsive
+            Helper Classes (mobile first): hide-768 (display: none, 768px and up)
+            display-1200-inline-block (understandable);
         
 6. [Theme](../master/sass/6-Theme)
     * Theme has all the class modifiers, regarding colors.

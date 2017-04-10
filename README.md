@@ -163,7 +163,7 @@ Now each folder, files and goodies within.
     * **Calculate 'REM' from size, with 'PX' fallback**
     * **Get color, from color map $palettes**
 
-    ie. padding: em(48px) 0; / font-size: rem(16); / color: palette(grey, base);
+            ie. padding: em(48px) 0; / font-size: rem(16); / color: palette(grey, base);
     
 + Placeholders: all placeholders.
     * **Clearfix**

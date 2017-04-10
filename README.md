@@ -129,7 +129,7 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 **It has**:
     
-0. Folders:
+0. [Folders](../master/sass):
     * 1-Variable-Mixin-Function-Placeholder
     * 2-Base-Animation
     * 3-Layout
@@ -139,14 +139,14 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 Now each folder, files and goodies within.
 
-1. **Variable-Mixin-Function-Placeholder**
-+ Variable-Map: all variables and sass maps.
+1. [Variable-Mixin-Function-Placeholder](../master/sass/1-Variable-Mixin-Function-Placeholder)
++ **Variable-Map**: all variables and sass maps.
     * Variables for: base font, font family, font weights and colors (black and white colors, colorful named colors, color usagage).
     * Maps for: Simple color map for $ui-colros and complex nested map $palettes.
     
 **Awesome part**: These color palettes, are what we use to generate bg-colors and color standalone classes, later on, for clean (non repetative code).
 
-+ Mixin: all mixins we use in the code.
++ **Mixin**: all mixins we use in the code.
     * **Sprite image map** mixin, to include icon in the class, with retina icon fallback (from another sprite image map).
     * **Pseudo-elements**, easily include before or after pseudo element on any class, with premade code within mixin.
     * **Font size in REM with PX fallback**
@@ -158,23 +158,23 @@ Now each folder, files and goodies within.
 
     ie. @include min-768 {} or @include max-1200 {} or @include min-640-max-1439 {}
  
-+ Functions: all functions.
++ **Functions**: all functions.
     * **Calculate 'EM' from 'PX'**
     * **Calculate 'REM' from size, with 'PX' fallback**
     * **Get color, from color map $palettes**
 
             ie. padding: em(48px) 0; / font-size: rem(16); / color: palette(grey, base);
     
-+ Placeholders: all placeholders.
++ **Placeholders**: all placeholders.
     * **Clearfix**
     * **Pseudo-elements** repetative properties
     * **Container**
     * **Row**
     
-+ Index
++ **Index**
     * In index files, we import all of the files within that folder.
     
-2. Animation-Base 
+2. [Animation-Base](../master/sass/2-Animation-Base)
  
 + **Animation-animate**
     * All the **animate.css** code.
@@ -194,7 +194,7 @@ Now each folder, files and goodies within.
 + **Index**
     * In index files, we import all of the files within that folder.
     
-3. Layout 
+3. [Layout](../master/sass/3-Layout)
 
 + **Grid** *Awesome*
     * I've created **more detailed custom grid, with all the features that Boostrap's bulletproof grid** has + with those additional Media Queries. So now, you have **mobile first grid + for media queries: 320, 480, 640, 768, 980, 1024, 1100, 1200, 1440, 1650 and 1920px**.
@@ -217,12 +217,12 @@ Now each folder, files and goodies within.
 + **Index**
     * In index files, we import all of the files within that folder.
     
-4. Module
+4. [Module](../master/sass/4-Module)
     * Ok, we have folders, for all the mixins, functions, placeholders, variabels, reset, animations and major layout parts of our website. **This folder contains the code for specific funcionalities like: forms, buttons, post-thumbnials, slider, etc.**
     * It should only contain blocks and elements regarding those specific funcionalities, modifiers go in next 2 folders.
     * + as always, index file, where we import all of those files within this folder.
     
-5. State
+5. [State](../master/sass/5-State)
     * State folder, has all the code, which changes the state of elements, classes on our website, on hover, event, etc.
     * Also, contains all very cool **Hide and Display** classes for all **Media Query Breakpoints**.
     * Like:
@@ -231,12 +231,17 @@ Now each folder, files and goodies within.
             .font-heading / .font-subheading / .font-body / .clearfix / .image-responsive / .iframe-responsive
             Helper Classes (mobile first): hide-768 (display: none, 768px and up) / display-1200-inline-block (understandable);
         
-6. Theme
+6. [Theme](../master/sass/6-Theme)
     * Theme has all the class modifiers, regarding colors.
     * Here, we used complex mixin class generator, to generate classes for bg-colors and colors from map $palettes.
     
             ie. .bg-color--white-base / .bg-color-grey--x-light / .color-primary--base / .color-secondary--dark
-            
+
+7. [partials and style.scss file](../master/sass)
+    * In partials.scss we import all of the index files, from all other folders (that already have imported all the files from their respective folders).
+    * In style.scss we import partials.scss
+    * Grunt minifies and converts all the scss code from style.scss to style.css
+    * That's it!
 ___
 
 In general, that's all of it.

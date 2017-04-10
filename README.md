@@ -218,9 +218,9 @@ Now each folder, files and goodies within.
     * In index files, we import all of the files within that folder.
     
 4. [Module](../master/sass/4-Module)
-    * Ok, we have folders, for all the mixins, functions, placeholders, variabels, reset, animations and major layout parts of our website. **This folder contains the code for specific funcionalities like: forms, buttons, post-thumbnials, slider, etc.**
+    * Ok, we have folders, for all the mixins, functions, placeholders, variabels, reset, animations and major layout parts of our website. **This folder contains the code for specific funcionalities like: forms, buttons, post-thumbnails, slider, etc.**
     * It should only contain blocks and elements regarding those specific funcionalities, modifiers go in next 2 folders.
-    * + as always, index file, where we import all of those files within this folder.
+    * As always, index file, where we import all of those files within this folder.
     
 5. [State](../master/sass/5-State)
     * State folder, has all the code, which changes the state of elements, classes on our website, on hover, event, etc.
@@ -272,7 +272,7 @@ I will soon create many great working font combinations (free fonts), for you to
 
 4. Also, in the same tab in linked spreadsheet above, there's a column on the right, "js", with many awesome, light weight but greatly made js plugins, for many functionalities.
 
-**I will continuously improve this repo, as well as that spreadsheet with new copy-paste design and code for you**
+**I will continuously improve this repo, as well as that spreadsheet with new copy-paste design and code for you.**
 
 ## Author's example projects and info
 

@@ -129,7 +129,7 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 **It has**:
     
-1. Folders:
+0. Folders:
     * 1-Variable-Mixin-Function-Placeholder
     * 2-Base-Animation
     * 3-Layout
@@ -139,7 +139,7 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
 
 Now each folder, files and goodies within.
 
-2. **1-Variable-Mixin-Function-Placeholder**
+1. **1-Variable-Mixin-Function-Placeholder**
 + Variable-Map: all variables and sass maps.
     * Variables for: base font, font family, font weights and colors (black and white colors, colorful named colors, color usagage).
     * Maps for: Simple color map for $ui-colros and complex nested map $palettes.
@@ -174,9 +174,27 @@ Now each folder, files and goodies within.
 + Index
     * In index files, we import all of the files within that folder.
     
- 3. **Animation-Base** 
+2. **Animation-Base** 
  
 + Animation-animate
     * All the **animate.css** code.
     
-+ 
++ **Animate-custom**
+    * All custom code, for animations.
+    
++ **Reset-normalize**
+    * Latest version of normalize code for reset.
+    
++ **Reset-custom**
+    * I've added some more reset code. Why? There are few things, like browser adding rounded corners and inset shadow to form elements for search. If you want 100% custom design, across all devices, this will make it happen.
+    
++ **General**
+    * Basic styling of major elements: * , body, p, h1-h4 tags, etc.
+
++ **Index**
+    * In index files, we import all of the files within that folder.
+    
+3. Layout 
+
++ **Grid** *Awesome*
+    * asd

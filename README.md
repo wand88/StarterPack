@@ -138,6 +138,6 @@ And finally SASS folder, which explains the subtle power of this custom StarterP
     * 6-Theme
 
 2. Files inside folders:
-1) **1-Variable-Mixin-Function-Placeholder**
-    * 
++ **1-Variable-Mixin-Function-Placeholder**
+    * asd
 

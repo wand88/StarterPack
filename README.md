@@ -174,9 +174,9 @@ Now each folder, files and goodies within.
 + Index
     * In index files, we import all of the files within that folder.
     
-2. **Animation-Base** 
+2. Animation-Base 
  
-+ Animation-animate
++ **Animation-animate**
     * All the **animate.css** code.
     
 + **Animate-custom**
@@ -197,4 +197,12 @@ Now each folder, files and goodies within.
 3. Layout 
 
 + **Grid** *Awesome*
-    * asd
+    * I've created **more detailed custom grid, with all the features that Boostrap's bulletproof grid** has + with those additional Media Queries. So now, you have **mobile first grid + for media queries: 320, 480, 640, 768, 980, 1024, 1100, 1200, 1440, 1650 and 1920px**.
+    * All col-*-* have floats, position: relative, etc. And row's, container's have clearfix's premade, relax. **+ col-pull- * , col-push - * and col-offset- * for all the col's and media query breakpoints**. 
+
+            ie. col-12; / col-320-6; / col-640-pull-6; / col-1200-push-4; / col-1920-offset-5 all you need. :)
+            
+ + **Layout**
+    * Layout contains all the container, row classes, as well as wrapper, main, and any additional similar type layout classes.
+    
+ + **Header**

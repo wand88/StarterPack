@@ -276,7 +276,7 @@ I will soon create many great working font combinations (free fonts), for you to
 
 ## Author's example projects and info
 
-**Example projects with this repo as a setup, coming soon.
+**Example projects with this repo as a setup, coming soon.**
 
 **Author**: Lazar Erić, lazar.eric1@gmail.com
 

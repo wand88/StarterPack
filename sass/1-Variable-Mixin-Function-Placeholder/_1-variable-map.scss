@@ -80,6 +80,9 @@ $ui-colors: (
 // Conected to palette() function, through which we call colors 
 
 $palettes: (
+  white: (
+    base: $white
+  ),
   grey: (
     xx-light: lighten($grey, 43%),
     x-light: lighten($grey, 35%),

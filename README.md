@@ -3,7 +3,7 @@ StarterPack is a setup for **starting each new, efficient, custom web project**.
 
 Packing **best practice** grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 
-INDEX.HTML + CSS + JS: **166kb** *(without Google font and images).*
+INDEX.HTML + CSS + JS: **159kb** *(without Google font and images).*
 
 In general, this setup, is *all you need for 85% of web projects*.
 
@@ -114,8 +114,6 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     
     **It has next plugins:**
     + [Hammer.js](http://hammerjs.github.io/) provides better touch manipulation support.
-    + [imagesLoaded](http://imagesloaded.desandro.com/) lets us know, which images are loaded, which are not (shows progress), also adds broken image (to the image that failed loading).
-    + [jqueryEasing](http://gsgd.co.uk/sandbox/jquery/easing/) advance easing options for jQuery.
     + [pictureFill](https://scottjehl.github.io/picturefill/) better support for HTML5 picture element, and for src and size.
     + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
     + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, sections on scroll into view.

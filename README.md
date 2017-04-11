@@ -7,7 +7,7 @@ INDEX.HTML + CSS + JS: **157kb** *(without Google font and jquery.min.js).*
 
 In general, this setup, is *all you need for 85% of web projects*.
 
-Easily **create great, solid website, under 500kb in total**,  with awesomely documented and efficient code.
+Easily **create great, solid website, under 500kb in total**,  with awesomely documented and DRY (Don't Repeat Yourself) code.
 
 Start of your custom new web project in few seconds, from ground up, with great setup for large scale projects, to small web projects.
 

@@ -13,6 +13,9 @@ Start of your custom new web project in few seconds, from ground up, with great 
 
 > I've created it to automatize the process of starting each **new, *purely custom*, web development project**. Without having to use parts of *Boostrap* in order to speed it up, or to *copy-paste or re-create grid, mixins, functions from previous projects*. As well, as *setup package.json and Grunt file* all over again, every time.
 
+Note: This is not Bootstrap, in means it doesn't have predone navigation, slider, tabs, etc.
+It's a setup, with no Bootstrap overhead. That's the entire point, to have a clean, yet stable start. For full custom project.
+
 ### Legend: 
 + [Goodies inside](../master/README.md#goodies-inside)
 + [Steps to take](../master/README.md#steps-to-take)

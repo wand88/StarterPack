@@ -45,6 +45,20 @@
 
 
 
+// --- Positions:relative, absolute and fixed --- 
+
+.relative {
+  position: relative; } 
+
+.fixed {
+  position: fixed; } 
+
+.absolute {
+  position: absolute; }
+
+
+
+
 // --- SRT --- 
 
 // Screen reader text class. Hides text, but can still be read by a text reader 

@@ -45,6 +45,40 @@
 
 
 
+// --- Text Classes ---
+
+
+// -- Text Align --
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.center {
+  text-align: center; }
+
+.justify {
+  text-align: justify; }
+
+.nowrap {
+  white-space: nowrap; }
+
+
+// -- Text Transform -- 
+
+.lowercase {
+  text-transform: lowercase; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+
+
 // --- Positions: relative, absolute and fixed --- 
 
 .relative {
@@ -104,13 +138,21 @@
 
 // Aligning using floats, and for center align, margin-left(and right): auto and display: block 
 
-.align-left {
+.float-left {
   float: left; } 
 
-.align-right {
-  float: right; } 
+.float-right {
+  float: right; }
 
-.align-center {
+.block-left {
+  display: block;
+  margin-left: auto; }
+
+.block-right {
+  display: block;
+  margin-right: auto; }
+
+.block-center {
   display: block;
   margin-left: auto;
   margin-right: auto; }

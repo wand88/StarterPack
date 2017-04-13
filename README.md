@@ -159,8 +159,8 @@ Now each folder, files and goodies within.
     
 **Awesome part**: Apart from most usefull mixin collection, yet light, you have all those Media Queries, for mobile-first quries, tv-first, and queries in between (all combinations of breakpoints).
 
-    ie. @include min-768 {} or @include max-1200 {} or @include min-640-max-1439 {}
- 
+    ie. @include min-768 {} or @include max-1200 {} or @include min-640-max-1440 {}
+    
 + **Functions**: all functions.
     * **Calculate 'EM' from 'PX'**
     * **Calculate 'REM' from size, with 'PX' fallback**

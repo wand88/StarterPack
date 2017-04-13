@@ -2,6 +2,62 @@
 
 // Here is all scss code for header blocks and elements 
 
+// Small reminder for all features by folders 
+
+// (Variables)
+// $tr ...Transitions
+
+// (Mixins)
+// @include icon(0,0,24px,24px,100px) ...Sprite icon, with retina fallback 
+// @include p-e(after, 15px, 20px) { ... } ...Before or after, pseudo elements 
+// @include px-rem(24px) ...Rem with px fallback 
+// @include bg-colors($ui-color) ...New classes with, the class as a prefix and UI colors 
+// @include min-1024 { ... } ...Media queries
+// @include max-480 { ... }
+// @include min-768-max-1200 { ... } 
+
+// (Functions)
+// em(24px) ...EM to px 
+// rem(32px) ...REM to px 
+// palette(grey, xx-light) ...Color palettes 
+
+// (Placeholders) 
+// @extend %clearfix 
+// @extend %pseudos 
+// @extend %row 
+// @extend %container 
+
+// (Animation) daneden.github.io/animate.css 
+
+// (Layout) 
+// .col-(state change)-(columns), .col-4, .col-pull-3, .col-push-5, .col-offset-7 ...Mobile-first from 0 
+// .col-(breakpoint)-(state change)-(columns), .col-320-12, .col-1024-pull-5, .col-1100-push-7, .col-768-offset-4 ...Breakpoints columns 
+
+// (Header) .header and .headroom, .headroom--pinned (unpinned) and .header--fixed 
+
+// (Footer) .footer 
+
+// (Module) ... 
+
+// (State and State-alone) 
+// .font-family--primary (secondary) ...Font family 
+// .font-weight--regular (light, bold) ...Font weight 
+// .font-heading (subheading, body, list-title, list-body) ...Font style stacks 
+// .left (right, center, justify, nowrap, lowercase, uppercase, capitalize) ...Text classes 
+// .relative (fixed, absolute) ...Position 
+// .srt, .clearfix 
+// .float-left (right) and .block-left (right, center) ...Block, element positioning 
+// .image-responsive, .iframe-responsive (and .iframe) ...Media responsive 
+// .webkit, .line-clamp-1 (2, 3, 4) ...For "..." instead of hidden overflown text
+// .hide-all and .hide-320 (breakpoints)
+// .display-inline (inline-block, block) and .display-1200-inline-block ("breakpoint"-"inline"(inline-block, block))
+
+// (Theme) 
+// .bg-grey--x-light (base, light, dark, xx-light, xx-dark, etc.) ...Background-color classes 
+// .color-primary--base (base, light, dark, xx-light, xx-dark, etc.) ...Color classes 
+
+// That's it!
+
 // Start code here 
 
 
@@ -36,7 +92,7 @@
 }());
 </script> */ 
 
-// or instead of those classes, add these ones: 
+// or instead of those classes, can add these ones: 
 
 /* 
 classes: {

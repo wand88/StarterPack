@@ -64,6 +64,7 @@
 
 // --- Font Classes --- 
 
+
 .font-heading {
   font-size: 3.157em;
   line-height: 1.1;
@@ -101,6 +102,7 @@
 
 // -- Text Align --
 
+
 .left {
   text-align: left; }
 
@@ -119,6 +121,7 @@
 
 // -- Text Transform -- 
 
+
 .lowercase {
   text-transform: lowercase; }
 
@@ -132,6 +135,7 @@
 
 // --- Positions: relative, absolute and fixed --- 
 
+
 .relative {
   position: relative; } 
 
@@ -143,51 +147,10 @@
 
 
 
-// --- SRT --- 
-
-// Screen reader text class. Hides text, but can still be read by a text reader 
-// Hides text for: Form labels, icon span text, etc.
-
-.srt {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip: rect(0, 0, 0, 0);
-  border: 0; }
-
-
-
-// --- Clearfix --- 
-
-.clearfix {
-  @extend %clearfix; }
-
-
-// -- Clearfix for Other Classes -- 
-
-.clearfix:before,
-.clearfix:after,
-.container:before,
-.container:after,
-.row:before,
-.row:after {
-  display: table;
-  content: " "; }
-
-.clearfix:after,
-.container:after,
-.row:after {
-  clear: both; }
-
-
-
 // --- Elements Align --- 
 
 // Aligning using floats, and for center align, margin-left(and right): auto and display: block 
+
 
 .float-left {
   float: left; } 
@@ -213,9 +176,55 @@
 
 
 
+// --- SRT --- 
+
+// Screen reader text class. Hides text, but can still be read by a text reader 
+// Hides text for: Form labels, icon span text, etc.
+
+
+.srt {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+
+
+// --- Clearfix --- 
+
+
+.clearfix {
+  @extend %clearfix; }
+
+
+// -- Clearfix for Other Classes -- 
+
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " "; }
+
+.clearfix:after,
+.container:after,
+.row:after {
+  clear: both; }
+
+
+
 // --- Responsive Image and iframe Embed 
 
 // -- Image -- 
+
 
 .image-responsive {
   display: block;
@@ -229,6 +238,7 @@
 // ie. <div class="iframe-responsive">
 // <iframe class="iframe" width="1280" height="720" src="https://www.youtube.com/embed/Cndj8y1kBVY?autoplay=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""> 
 // </iframe> </div>
+
 
 .iframe-responsive {
   position: relative;
@@ -249,6 +259,7 @@
 
 // For text, which overflow in the last line is hidden, to show "..." instead of the hidden text
 // Use classes .webkit and .line-clamp-* (depending on how many rows of text are wanted) 
+
 
 .webkit {
   display: -webkit-box;
@@ -294,11 +305,13 @@
 
 // Hide on all
 
+
 .hide-all {
   display: none; }
 
 
 // Hide-* and up
+
 
 @media only screen and (min-width: 20em) {
   .hide-320 {
@@ -365,6 +378,7 @@
 
 // - inline - 
 
+
 @media only screen and (min-width: 20em) {
   .display-320-inline {
     display: inline; }
@@ -422,6 +436,7 @@
 
 
 // - inline-block - 
+
 
 @media only screen and (min-width: 20em) {
   .display-320-inline-block {
@@ -481,6 +496,7 @@
 
 // - block - 
 
+
 @media only screen and (min-width: 20em) {
   .display-320-block {
     display: block; }
@@ -535,6 +551,38 @@
   .display-1920-block {
     display: block; }
 } 
+
+
+
+// --- Hide and Show in Print View, Helper Classes ---
+
+
+// -- Hide -- 
+
+
+@media print {
+  .hide-print {
+    display: none !important; } 
+}
+
+
+// -- Show: block, inline-block and inline -- 
+
+
+@media print {
+  .display-print-block {
+    display: block; }
+}
+
+@media print {
+  .display-print-inline-block {
+    display: inline-block; }
+}
+
+@media print {
+  .display-print-inline {
+    display: inline; }
+}
 
 
 // Start custom Helper Classes, Hide and Display, for custom Breakpoints   

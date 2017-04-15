@@ -11,17 +11,21 @@
 
 // -- Base Font -- 
 
+
 $base__font-size: 16px;
 $base__line-height: 24px;
 
 
 // -- Font Family --
 
+
 $font-family--primary: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family--secondary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family--print: Georgia, "Times New Roman", serif; 
 
 
 // -- Font Weights --
+
 
 $font-weight--light: 300;
 $font-weight--regular: 400;
@@ -36,6 +40,7 @@ $font-weight--bold: 700;
 
 // - Black and White - 
 
+
 $white: #fff;
 $black: #0b0b0b;
 $grey: #84898F;
@@ -44,6 +49,7 @@ $grey: #84898F;
 // - Colorful - 
 
 // Color naming: http://chir.ag/projects/name-that-color 
+
 
 $fountain-blue: #52bab3;
 $emerald: #5ece7f;
@@ -54,6 +60,7 @@ $scooter: #39add1;
 
 
 // -- Color Usage -- 
+
 
 $color-primary: $fountain-blue;
 $color-secondary: $scooter;
@@ -69,6 +76,7 @@ $color-shadow: rgba($black, .08);
 
 // Connected to bg-color() mixin, we can generate additional classes with it
 
+
 $ui-colors: ( 
 	default: $fountain-blue,
 	success: $emerald,
@@ -80,6 +88,7 @@ $ui-colors: (
 // -- All Color Palettes -- 
 
 // Conected to palette() function, through which we call colors 
+
 
 $palettes: (
   white: (
@@ -113,5 +122,6 @@ $palettes: (
 
 
 // --- Transitions --- 
+
 
 $tr: 0.2s;

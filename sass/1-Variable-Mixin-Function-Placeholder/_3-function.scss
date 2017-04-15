@@ -29,6 +29,17 @@
 
 
 
+// --- Calculate PX to PT (points), for Print/PDF --- 
+
+// ie. font-size: pt(16px), result: font-size: 12pt;
+
+
+@function pt($target) {
+	@return ($target * 0.75) * 1pt; 
+}
+
+
+
 // --- Color Palette --- 
 
 // Calling a color from color palette (map)

@@ -31,11 +31,22 @@
 
 // --- Calculate PX to PT (points), for Print/PDF --- 
 
-// ie. font-size: pt(16px), result: font-size: 12pt;
+// ie. font-size: pt(16), result: font-size: 12pt;
 
 
 @function pt($target) {
 	@return ($target * 0.75) * 1pt; 
+}
+
+
+
+// --- Calculate PX to CM, for Print/PDF --- 
+
+// ie. font-size: cm(37.79), result: font-size: 1cm;
+
+
+@function cm($target) {
+	@return ($target * 0.02645833) * 1cm; 
 }
 
 

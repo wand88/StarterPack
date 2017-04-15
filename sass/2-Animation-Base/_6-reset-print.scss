@@ -6,3 +6,146 @@
 
 
 
+// --- Basic Element Styling --- 
+
+
+@include print {
+
+  html {
+    padding: 2cm; } 
+
+  body {
+    font-family: $font-family--print;
+    font-size: pt(16);
+    background: #fff;
+    color: #111; }
+
+  p {
+    font-size: pt(16);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: cm(15);
+    margin-bottom: cm(20); }
+
+  h1, h2, h3, h4 {
+    font-family: $font-family--primary;
+    font-weight: $font-weight--bold; }
+
+  h1 {
+    font-size: pt(50); }
+
+  h2 {
+    font-size: pt(38); }
+
+  h3 {
+    font-size: pt(28); }
+
+  h4 {
+    font-size: pt(21); }
+
+  code {
+    font-size: pt(14);
+    background-color: palette(grey,xx-light);
+    color: #333; }
+
+  a {
+    font-family: $font-family--primary;
+    font-size: pt(18);
+    font-weight: $font-weight--bold;
+    text-decoration: underline;
+    color: #444;
+    word-wrap: break-word; }
+
+  ul, ol, dl, li, img, blockquote, p {
+    page-break-inside: avoid; }
+
+  h1, h2, h3, h4, h5, h6, img {
+    page-break-after: avoid;  }
+
+  img {
+    display: block;
+    margin: cm(15) auto; 
+    max-width: 500px; 
+    border: none !important; }
+
+  ul, ol {
+    margin-left: 0.5cm;
+    margin-top: cm(25);
+    margin-bottom: cm(35); }
+
+  ul li, ol li {
+    font-size: pt(14);
+    color: #333;
+    line-height: 1.9; }
+
+  ul {
+    list-style-type: disc; }
+
+  ol {
+    list-style-type: decimal; }
+
+  blockquote {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: cm(38);
+    margin-bottom: cm(38);
+    font-size: pt(23);
+    color: #999;
+    text-align: center;
+    max-width: 450px;
+    line-height: 1.35;
+
+    &:after {
+      content: "Quote:";
+      position: absolute;
+      top: -30px;
+      left: -25px;
+      font-size: 20px;
+      color: #777; } 
+  }
+
+}
+
+
+
+// --- Removing Basic Elements from Print --- 
+
+
+@include print {
+
+  header, footer, nav, aside, audio, video, object, iframe, embed {
+    display: none !important; }
+
+}
+
+
+
+// --- Links Styling --- 
+
+
+@include print {
+
+// -- Internal links -- 
+
+
+a[href^="/"]:after { 
+  content: " (http://lazareric.com" attr(href) ") "; }
+
+
+// -- External links --
+
+
+a[href^="http://"]:after, a[href^="https://"]:after {
+  content: " (" attr(href) ")"; }
+
+
+// -- No links: "#" and "javascript:void(0)" --
+
+
+a[href^="#"]:after, a[href^="javascript:void(0)"]:after {
+  content: " "; }
+
+}

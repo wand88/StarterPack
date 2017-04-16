@@ -67,6 +67,11 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     * Rename the folder, into the name of your project.
     * Inside the folder, delete: LICENCE and README.md
     * Choose whether or not to delete **.gitignore**, depending if you will later git push files to the remote repo (on github). 
+    * Or use **npm** to install:
+    
+            npm install starterpack
+                    
+    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, you will have to download all node_modules (dependencies), that you would have already by just downloading it here, and extracting it in your project folder.
     * That's it, you have clean setup to start coding.
     * Enjoy. :)
 ## All features explained
@@ -176,6 +181,9 @@ Now each folder, files and goodies within.
     
 + **Index**
     * In index files, we import all of the files within that folder.
+    * Added Print/PDF support:
+        + For your website to look awesome in Print view, I've added some Print/PDF only header, footer code in html, which will only be shown in Print/PDF view (right click > print > change > PDF > save).
+        + Also, there are few more things: reset-print.scss, .hide-print (to hide all other elements in web view, that we don't need in print/PDF view), .display-print-block (inline-block, inline) class, and .font-family--print (serif based font stack for print/PDF).
     
 2. [Animation-Base](../master/sass/2-Animation-Base)
  

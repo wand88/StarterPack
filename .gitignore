@@ -1,6 +1,7 @@
 # ignores ".sass-cache"
 .sass-cache
 README.md
+LICENSE.txt
 
 # ignores all files with ".css.map extension
 *.css.map

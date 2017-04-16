@@ -1,5 +1,7 @@
-# ignores ".sass-cache", "node_modules" and "sass" folders
+# ignores ".sass-cache"
 .sass-cache
+LICENSE.txt
+README.md
 
 # ignores all files with ".css.map extension
 *.css.map

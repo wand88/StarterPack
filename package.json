@@ -1,6 +1,6 @@
 {
-  "name": "StarterPack",
-  "version": "1.0.0",
+  "name": "starterpack",
+  "version": "1.0.2",
   "description": "package.json for StarterPack by — lazareric.com",
   "main": "index.js",
   "scripts": {

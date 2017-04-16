@@ -102,6 +102,9 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     + Favicons: Also, every needed favicon size, ever. For default browsers and systems, as well as ios system.
     + Then, Body, Wrapper, Header, Main and Footer (usually starting structure).
     + In the end: jQuery.min.js latest version linked, then our custom js file with plugins (linked to js folder in root folder), and Google analytics script. That's it for HTML.
+    + Added Print/PDF support:
+        * For your website to look awesome in Print view, I've added some Print/PDF only header, footer code in html, which will only be shown in Print/PDF view (right click > print > change > PDF > save).
+        * Also, there are few more things: reset-print.scss, .hide-print (to hide all other elements in web view, that we don't need in print/PDF view), .display-print-block (inline-block, inline) class, and .font-family--print (serif based font stack for print/PDF).
     
 * **[package.json](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=501934981)**
     + Basic setup of package.json, including all necessary add-ons to Grunt, like code minifier and autoprefixer.
@@ -182,9 +185,6 @@ Now each folder, files and goodies within.
     
 + **Index**
     * In index files, we import all of the files within that folder.
-    * Added Print/PDF support:
-        + For your website to look awesome in Print view, I've added some Print/PDF only header, footer code in html, which will only be shown in Print/PDF view (right click > print > change > PDF > save).
-        + Also, there are few more things: reset-print.scss, .hide-print (to hide all other elements in web view, that we don't need in print/PDF view), .display-print-block (inline-block, inline) class, and .font-family--print (serif based font stack for print/PDF).
     
 2. [Animation-Base](../master/sass/2-Animation-Base)
  

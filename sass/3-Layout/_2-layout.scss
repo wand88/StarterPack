@@ -97,8 +97,7 @@
   position: relative;
   width: 100%;
   min-height: 100%; // Fallback to "vh" unit 
-  min-height: calc(100vh - 100px); // Counting in footer's height 100px. To see everything in at least 100% height
-  z-index: 2000;
-  padding-top: 50px; } // Because of header--fixed class added to header, for headroom.js slide effect
+  min-height: calc(100vh - 150px); // Counting in footer's height 100px. To see everything in at least 100% height
+  z-index: 2000; }
 
 

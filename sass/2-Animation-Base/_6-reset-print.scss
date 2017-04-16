@@ -12,7 +12,7 @@
 @include print {
 
   html {
-    padding: 2cm; } 
+    padding: 1cm; } 
 
   body {
     font-family: $font-family--print;
@@ -29,7 +29,7 @@
     margin-bottom: cm(20); }
 
   h1, h2, h3, h4 {
-    font-family: $font-family--primary;
+    font-family: $font-family--secondary;
     font-weight: $font-weight--bold; }
 
   h1 {

@@ -67,11 +67,12 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     * Rename the folder, into the name of your project.
     * Inside the folder, delete: LICENCE and README.md
     * Choose whether or not to delete **.gitignore**, depending if you will later git push files to the remote repo (on github). 
+    * In command line, enter: npm install (to install all needed dependencies).
     * Or use **npm** to install:
     
             npm install starterpack
                     
-    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, you will have to download all node_modules (dependencies), that you would have already by just downloading it here, and extracting it in your project folder. 
+    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, enter: npm install (to install all needed dependencies).
     * I recommend downloading it here, not with npm (for beginners).
     * That's it, you have clean setup to start coding.
     * Enjoy. :)

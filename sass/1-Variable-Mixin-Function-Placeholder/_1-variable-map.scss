@@ -91,7 +91,7 @@ $ui-colors: (
 
 
 $palettes: (
-  white: (
+  whites: (
     base: $white
   ),
   grey: (
@@ -102,7 +102,7 @@ $palettes: (
     dark: darken($grey, 8%),
     x-dark: darken($grey, 16%)
   ),
-  black: (
+  blacks: (
     light: lighten($black, 10%),
     base: $black,
     dark: darken($black, 10%)

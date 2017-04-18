@@ -68,3 +68,6 @@
 	height: 100%;
 	z-index: 5000;
 	overflow: hidden; }
+
+.no-cssanimations .preloader {
+	display: none !important; }

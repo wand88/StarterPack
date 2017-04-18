@@ -128,7 +128,7 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
     **It has next plugins:**
     + [Hammer.js](http://hammerjs.github.io/) provides better touch manipulation support.
     + [pictureFill](https://scottjehl.github.io/picturefill/) better support for HTML5 picture element, and for src and size.
-    + Modernizr — Browser Feature Detection. Inserts ie. svg or no-svg classes to html element, so we can create a fallback.
+    + **Modernizr** — Browser Feature Detection. Inserts ie. svg or no-svg classes to html element, so we can create a fallback.
     + **[smoothScroll](http://codepen.io/chriscoyier/pen/dpBMVP)** one of my favourites, smooth scroll to the anchor link on the page.
     + **[WOW.js](http://mynameismatthieu.com/WOW/)**, my other favourite, reveals elements, sections on scroll into view.
     + **[Sticky-kit](http://leafo.net/sticky-kit/#examples)** provides an easy way to attach elements to the page when the user scrolls.

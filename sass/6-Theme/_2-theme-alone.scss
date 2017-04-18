@@ -13,9 +13,13 @@
 
 
 // Here are all initially generated background-color classes (from template) 
+// Note:
+// Due to SCSS mixin complexity and SCSS code, words white and black, are turned into #fff and #000, instead of words, in class names.
+// Base on that classes are bg-whites (so with white and black are in plural, to work), bg-blacks... 
+// And bg-grey.., bg-primary.., bg-secondary.. They have intuitive naming, and are not bug affected.
 
 
-// .bg-white--base {
+// .bg-whites--base {
 //    background-color: #fff; }
 // .bg-grey--xx-light {
 //    background-color: #f7f7f8; }
@@ -29,11 +33,11 @@
 //    background-color: #70757b; }
 // .bg-grey--x-dark {
 //    background-color: #5c6065; }
-// .bg-black--light {
+// .bg-blacks--light {
 //    background-color: #252525; }
-// .bg-black--base {
+// .bg-blacks--base {
 //    background-color: #0b0b0b; }
-// .bg-black--dark {
+// .bg-blacks--dark {
 //    background-color: black; }
 // .bg-primary--light {
 //    background-color: #76c9c3; }
@@ -59,7 +63,7 @@
 // Here are all initially generated color classes (from template) 
 
 
-// .color-white--base {
+// .color-whites--base {
 //    color: #fff; }
 // .color-grey--xx-light {
 //    color: #f7f7f8; }
@@ -73,11 +77,11 @@
 //    color: #70757b; }
 // .color-grey--x-dark {
 //    color: #5c6065; }
-// .color-black--light {
+// .color-blacks--light {
 //    color: #252525; }
-// .color-black--base {
+// .color-blacks--base {
 //    color: #0b0b0b; }
-// .color-black--dark {
+// .color-blacks--dark {
 //    color: black; }
 // .color-primary--light {
 //    color: #76c9c3; }

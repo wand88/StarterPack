@@ -1,7 +1,6 @@
 # ignores ".sass-cache"
 .sass-cache
-README.md
-LICENSE.txt
+
 node_modules
 
 # ignores all files with ".css.map extension

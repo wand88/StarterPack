@@ -250,8 +250,9 @@ Now each folder, files and goodies within.
 6. [Theme](../master/sass/6-Theme)
     * Theme has all the class modifiers, regarding colors.
     * Here, we used complex mixin class generator, to generate classes for bg-colors and colors from map $palettes.
+    * As you can see, only white and black pallete have "s" at the end, so in plural. SCSS mixin makes problems with words white and black, it actually turns it into #fff (ie. .bg-#fff--base), so I had to make them .bg-whites--base and .bg-blacks--base, etc. But the rest, .bg-grey... and .bg-primary, etc. are intuitive to remember.
     
-            ie. .bg-white--base / .bg-grey--xx-dark / .color-primary--base / .color-secondary--dark
+            ie. .bg-whites--base / .bg-blacks--light / .bg-grey--xx-dark / .color-primary--base / .color-secondary--dark
 
 7. [partials and style.scss file](../master/sass)
     * In partials.scss we import all of the index files, from all other folders (that already have imported all the files from their respective folders).

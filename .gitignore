@@ -3,7 +3,7 @@
 README.md
 LICENSE.txt
 node_modules
-production.zip
+production
 
 # ignores all files with ".css.map extension
 *.css.map

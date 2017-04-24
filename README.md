@@ -75,7 +75,10 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     
             npm install starterpack
                     
-    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, enter: npm install (to install all needed dependencies).
+    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, you have to install all needed dependencies:
+    
+            npm install
+    
     * That's it, you have clean setup to start coding.
     * Enjoy. :)
 ## All features explained

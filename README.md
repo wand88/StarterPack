@@ -67,7 +67,10 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     * Rename the folder, into the name of your project.
     * Inside the folder, delete: LICENCE and README.md
     * Choose whether or not to delete **.gitignore**, depending if you will later git push files to the remote repo (on github). 
-    * In command line, enter: npm install (to install all needed dependencies).
+    * To install all needed dependencies, enter:
+    
+            npm install
+                
     * Or use **npm** to install:
     
             npm install starterpack

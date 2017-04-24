@@ -75,7 +75,7 @@ In order to just download this repository, extract it on your laptop/pc, I will 
     
             npm install starterpack
                     
-    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, you have to install all needed dependencies:
+    * If you use **npm** to install this repo to your local folder, you will need to cut all from node_modules folder, and put it in root folder of your project. Additionally, you have to install all needed dependencies in C:\wamp64\www\project:
     
             npm install
     

@@ -298,11 +298,9 @@ I will soon create many great working font combinations (free fonts), for you to
 
 **Example projects with this repo as a setup:**
 
-1. [Lazar Eric's Personal Website](https://lazareric.com).
+1. [Lazar Eric's Personal Website](https://lazareric.com)
 
-Let me know, if you have any comments, to make this repo, even better and more powerful for our projects. Cheers, enjoy!
-
-**Author**: Lazar Erić, lazar.eric1@gmail.com
+**Author**: Lazar Erić, lazar@lazareric.com
 
 **More of my projects:** 
 

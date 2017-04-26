@@ -296,8 +296,23 @@ I will soon create many great working font combinations (free fonts), for you to
 
 ## Author's example projects and info
 
-**Example projects with this repo as a setup, coming soon.**
+**Example projects with this repo as a setup:**
+
+1. [Lazar Eric's Personal Website](https://lazareric.com).
+
+Let me know, if you have any comments, to make this repo, even better and more powerful for our projects. Cheers, enjoy!
 
 **Author**: Lazar Erić, lazar.eric1@gmail.com
 
-Let me know, if you have any comments, to make this repo, even better and more powerful for our projects. Cheers, enjoy!
+**More of my projects:** 
+
+1. [lazareric.com](https://lazareric.com)
+2. [GitHub](https://github.com/lazareric)
+3. [CodePen](https://codepen.io/lazareric/)
+
+**For design:**
+
+1. [Dribbble](https://dribbble.com/lazareric)
+2. [Behance](https://www.behance.net/lazareric15ae8)
+
+#### *Have a nice day.*

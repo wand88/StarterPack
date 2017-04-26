@@ -377,6 +377,19 @@
 
 // -- Display -- 
 
+
+// - Block, inline-block and inline for all
+
+.inline {
+  display: inline; }
+
+.inline-block {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+
 // Displays the content with inline, inline-block or block value, from a breakpoint and up 
 // ie. .display-768-inline-block or .display-1200-block, so .display-*(breakpoint)-*(value)
 // Breakpoints: 320, 480, 640, 768, 980, 1024, 1100, 1200, 1440, 1650 and 1920px

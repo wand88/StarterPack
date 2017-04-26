@@ -1,6 +1,6 @@
 
 
-// Here is all scss code for layout blocks and elements 
+// Here is all scss code for one-slide blocks and elements 
 
 // Small reminder for all features by folders 
 
@@ -59,45 +59,5 @@
 // That's it!
 
 // Start code here 
-
-
-
-// --- Other Layout Classes --- 
-
-.wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%; } 
-
-.main {
-  position: relative;
-  width: 100%;
-  min-height: 100%; // Fallback to "vh" unit 
-  min-height: calc(100vh - 150px); // Counting in footer's height 100px. To see everything in at least 100% height
-  z-index: 2000; }
-
-
-
-// --- Container ---
-
-// Base container is fluid: .container (width: 100%).
-// Others as necessary are .container-(min-width query value)-(width of the container). ie. container-1100-1000
-// Use @media queries and @extend %container inside them + width of new container, to create new .container-*-* classes 
-// ie. .container-768-708 { @extend %container; @include min-768 { width: 708px; } } 
-
-// Base Container 
-
-.container {
-  @extend %container; } 
-
-
-
-// --- Row --- 
-
-// Use @media queries and @extend %row inside them to create new .row-* classes 
-// Base row 
-
-.row {
-	@extend %row; } 
 
 

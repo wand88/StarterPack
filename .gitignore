@@ -1,6 +1,5 @@
 # ignores all the files and folders listed below
 .sass-cache
-README.md
 LICENSE.txt
 node_modules
 production

@@ -313,4 +313,4 @@ I will soon create many great working font combinations (free fonts), for you to
 1. [Dribbble](https://dribbble.com/lazareric)
 2. [Behance](https://www.behance.net/lazareric15ae8)
 
-#### *Have a nice day.*
+Have a nice day.

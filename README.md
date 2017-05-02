@@ -93,8 +93,8 @@ It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheet
 ### **Documentation:**
   1. Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
   2. Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
-    ___
-    Files in root:
+
+Files in root:
     
 * **[index.html](../master/index.html)**
     

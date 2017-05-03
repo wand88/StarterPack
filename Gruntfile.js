@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'css/style.css': 'sass/style.scss'
+                    'css/style-v1.css': 'sass/style.scss'
                 }
             }
         },
@@ -28,7 +28,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: 'css/style.css'
+                src: 'css/style-v1.css'
             }
         }
     });

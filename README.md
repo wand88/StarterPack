@@ -90,13 +90,11 @@ For documentation I use very flexible structure, which is easily scalable for la
 
 It's based on [my custom SMACSS methodology](https://docs.google.com/spreadsheets/d/1TCHzqey9PGPfZpwy6A-H0sdRz8KeHn0S8zKwaunZKPM/edit#gid=1868618249).
 
-![alt text](https://lazareric.com/img/2.png "Documentation tree")
-
 ### **Documentation:**
   1. Folders in root folder: **css**,  **js**,  **img**,  **node_modules** and  **SASS** (+ .sass-cache, non important).
   2. Files in root folder:  **index.html**,  **package.json**,  **gruntfile.js** (+ licence, readme and .gitignore, non important).
-    ___
-    Files in root:
+
+Files in root:
     
 * **[index.html](../master/index.html)**
     

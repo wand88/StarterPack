@@ -1,7 +1,5 @@
 
 
-// Here is all scss code for functions 
-
 // Start code here 
 
 
@@ -20,7 +18,7 @@
 
 // --- Font size in REM with PX fallback ---
 
-// Using it with @mixin px-rem
+// Using it with @mixin font-size-rem
 
 
 @function rem($size) {

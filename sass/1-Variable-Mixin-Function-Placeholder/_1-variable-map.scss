@@ -1,7 +1,5 @@
 
 
-// Here is all scss code for variables and maps 
-
 // Start code here 
 
 
@@ -19,10 +17,21 @@ $base__line-height: 24px;
 // -- Font Family --
 
 
-$font-family--primary: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-$font-family--secondary: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-$font-family--tertiary: 'Helvetica Neue',Helvetica,Arial,sans-serif; // In case, second family becomes another typeface (for dual font web page)
-$font-family--print: Georgia,Cambria,'Times New Roman',Times,serif; 
+$font-family--primary: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif;
+$font-family--secondary: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif;
+$font-family--tertiary: // Safari for OS X and iOS (San Francisco)
+                        -apple-system,
+                        // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+                        system-ui,
+                        // Chrome < 56 for OS X (San Francisco)
+                        BlinkMacSystemFont,
+                        // Windows
+                        "Segoe UI",
+                        // Android
+                        "Roboto",
+                        // Basic web fallback
+                        "Helvetica Neue", Arial, sans-serif; // In case, second family becomes another typeface (for dual typeface web page)
+$font-family--print: Georgia,Cambria,"Times New Roman",Times,serif; 
 
 
 // -- Font Weights --

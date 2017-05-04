@@ -1,7 +1,5 @@
 
 
-// Here is all scss code for mixins 
-
 // Start code here 
 
 
@@ -61,10 +59,10 @@
 
 // --- Font-size in REM with PX fallback ---
 
-// ie. @include px-rem(24px), result: font-size: 24px; font-size: 1.5rem; 
+// ie. @include font-size-rem(24px), result: font-size: 24px; font-size: 1.5rem; 
 
 
-@mixin px-rem($size) {
+@mixin font-size-rem($size) {
   font-size: $size; // Will be overridden if browser supports rem
   font-size: rem($size); }
 

@@ -1,0 +1,244 @@
+
+
+// Start code here 
+
+
+
+// --- Paragraph, headings, displays, lead fonts --- 
+
+
+// -- Paragraph -- 
+
+
+p,.p {
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: $font-family--secondary;
+  font-weight: $font-weight--regular; }
+
+
+
+// -- Headings -- 
+
+// .h1-h6 and .p exist, if we need to use that class in other HTML element, than h1-h6 or p
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family--primary;
+  font-weight: $font-weight--regular;
+  line-height: 1.1;
+  margin-bottom: 0.5em; // Fallback
+  margin-bottom: 0.5rem; }
+
+h1, .h1 {
+  @include font-size-rem(40px); }
+
+h2, .h2 {
+  @include font-size-rem(32px); }
+
+h3, .h3 {
+  @include font-size-rem(28px); }
+
+h4, .h4 {
+  @include font-size-rem(24px); }
+
+h5, .h5 {
+  @include font-size-rem(20px); }
+
+h6, .h6 {
+  @include font-size-rem(16px); }
+
+
+
+// -- Display and lead -- 
+
+
+.d1,.d2,.d3,.d4,.lead {
+  font-family: $font-family--primary;
+  font-weight: $font-weight--light;
+  line-height: 1.1;
+  color: inherit; }
+
+.d1 {
+  @include font-size-rem(96px); }
+
+.d2 {
+  @include font-size-rem(88px); }
+
+.d3 {
+  @include font-size-rem(72px); }
+
+.d4 {
+  @include font-size-rem(56px); }
+
+.lead {
+  @include font-size-rem(20px); }
+
+
+
+// --- blockquote ---
+
+
+blockquote,.blockquote {
+  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  @include font-size-rem(20px);
+  border-left: 0.25em solid #eceeef;
+  border-left: 0.25rem solid #eceeef; }
+
+
+
+// --- code, kbd, pre and samp ---
+
+
+code,kbd,pre,samp {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+code {
+  padding: 0.2em 0.4em;
+  padding: 0.2rem 0.4rem;
+  font-size: 90%;
+  color: #bd4147;
+  background-color: #f7f7f9;
+  border-radius: 0.25em; }
+
+a > code {
+  padding: 0;
+  color: inherit;
+  background-color: inherit; }
+
+kbd {
+  padding: 0.2em 0.4em;
+  padding: 0.2rem 0.4rem;
+  font-size: 90%;
+  color: palette(whites,base);
+  background-color: #292b2c;
+  border-radius: 0.2em; }
+
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold; }
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  font-size: 90%;
+  color: #292b2c; }
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0; }
+
+
+
+// --- Font Family ---
+
+
+.font-family--primary {
+  font-family: $font-family--primary; }
+
+.font-family--secondary {
+  font-family: $font-family--secondary; }
+
+.font-family--tertiary {
+  font-family: $font-family--tertiary; }
+
+.font-family--print {
+  font-family: $font-family--print; }
+
+
+
+// --- Font Weight ---
+
+
+.font-weight--light {
+  font-weight: $font-weight--light; }
+
+.font-weight--regular {
+  font-weight: $font-weight--regular; }
+
+.font-weight--bold {
+  font-weight: $font-weight--bold; }
+
+
+
+// --- Text Align ---
+
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.center {
+  text-align: center; }
+
+.justify {
+  text-align: justify; }
+
+.nowrap {
+  white-space: nowrap; }
+
+
+
+// --- Text Transform --- 
+
+
+.lowercase {
+  text-transform: lowercase; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.underline {
+  text-decoration: underline; }
+
+.decoration-none {
+  text-decoration: none; }
+
+
+
+// --- "..." instead of the text overflow --- 
+
+// For text, which overflow in the last line is hidden, to show "..." instead of the hidden text
+// Use classes .webkit and .line-clamp-* (depending on how many rows of text are wanted) 
+
+
+.webkit {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.25em;
+  overflow: hidden; }
+
+.line-clamp-1 {
+  max-height: 1.7em;
+  -webkit-line-clamp: 1; }
+
+.line-clamp-2 {
+  max-height: 2.7em;
+  -webkit-line-clamp: 2; }
+
+.line-clamp-3 {
+  max-height: 3.7em;
+  -webkit-line-clamp: 3; }
+
+.line-clamp-4 {
+  max-height: 4.7em;
+  -webkit-line-clamp: 4; }
+

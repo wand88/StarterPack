@@ -3,7 +3,7 @@ StarterPack is a setup for **starting each new, efficient, custom web project**.
 
 Packing **best practice** grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 
-INDEX.HTML + CSS + JS: *179kb* / **gziped** **77kb** *(without Google font and jquery.min.js).*
+INDEX.HTML + CSS + JS: *162kb* / **gziped 33.7kb (entire HTML, CSS and JS)!** *(without Google font and jquery.min.js).*
 
 In general, this setup, is *all you need for 85% of web projects*.
 

@@ -10,6 +10,9 @@
 // -- Paragraph -- 
 
 
+// p: 
+
+
 p,.p {
   font-size: 1em;
   line-height: 1.5;
@@ -23,35 +26,49 @@ p,.p {
 // .h1-h6 and .p exist, if we need to use that class in other HTML element, than h1-h6 or p
 
 
+// h1: advance/theory page title, 
+// h2: section title, advance/theory page block title 
+// h3: featured, footer web site text 
+// h4: footer titles
+// h5:
+// h6:
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family--primary;
   font-weight: $font-weight--regular;
   line-height: 1.1;
-  margin-bottom: 0.5em; // Fallback
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5em; }
 
 h1, .h1 {
-  @include font-size-rem(40px); }
+  font-size: em(20px); }
 
 h2, .h2 {
-  @include font-size-rem(32px); }
+  font-size: em(18px); }
 
 h3, .h3 {
-  @include font-size-rem(28px); }
+  font-size: em(16px); }
 
 h4, .h4 {
-  @include font-size-rem(24px); }
+  font-size: em(14px); }
 
 h5, .h5 {
-  @include font-size-rem(20px); }
+  font-size: em(12px); }
 
 h6, .h6 {
-  @include font-size-rem(16px); }
+  font-size: em(10px); }
 
 
 
 // -- Display and lead -- 
+
+
+// d1:
+// d2:
+// d3:
+// d4:
+// lead: text on the baner
 
 
 .d1,.d2,.d3,.d4,.lead {
@@ -61,19 +78,19 @@ h6, .h6 {
   color: inherit; }
 
 .d1 {
-  @include font-size-rem(96px); }
+  font-size: em(34px); }
 
 .d2 {
-  @include font-size-rem(88px); }
+  font-size: em(28px); }
 
 .d3 {
-  @include font-size-rem(72px); }
+  font-size: em(24px); }
 
 .d4 {
-  @include font-size-rem(56px); }
+  font-size: em(22px); }
 
 .lead {
-  @include font-size-rem(20px); }
+  font-size: em(20px); }
 
 
 
@@ -82,12 +99,9 @@ h6, .h6 {
 
 blockquote,.blockquote {
   padding: 0.5em 1em;
-  padding: 0.5rem 1rem;
   margin-bottom: 1em;
-  margin-bottom: 1rem;
-  @include font-size-rem(20px);
-  border-left: 0.25em solid #eceeef;
-  border-left: 0.25rem solid #eceeef; }
+  font-size: em(20px);
+  border-left: 0.25em solid #eceeef; }
 
 
 
@@ -99,7 +113,6 @@ code,kbd,pre,samp {
 
 code {
   padding: 0.2em 0.4em;
-  padding: 0.2rem 0.4rem;
   font-size: 90%;
   color: #bd4147;
   background-color: #f7f7f9;
@@ -112,7 +125,6 @@ a > code {
 
 kbd {
   padding: 0.2em 0.4em;
-  padding: 0.2rem 0.4rem;
   font-size: 90%;
   color: palette(whites,base);
   background-color: #292b2c;
@@ -127,7 +139,6 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1em;
-  margin-bottom: 1rem;
   font-size: 90%;
   color: #292b2c; }
 
@@ -241,4 +252,5 @@ pre code {
 .line-clamp-4 {
   max-height: 4.7em;
   -webkit-line-clamp: 4; }
+
 

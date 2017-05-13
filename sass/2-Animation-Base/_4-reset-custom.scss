@@ -17,13 +17,14 @@
   touch-action: manipulation; }
 
 html {
-  height: 100%; // Fallback to "vh" unit 
-  height: 100vh;
+  min-height: 100%; // Fallback to "vh" unit 
+  min-height: 100vh;
   font-size: 1em; }
 
 body {
-  font-family: $font-family--primary;
+  font-family: $font-family--secondary;
   font-size: 1em;
+  // body is always 1em, I change font-size's in typography as I would
   line-height: 1.5;
   color: #222;
   background-color: #fff;
@@ -32,7 +33,7 @@ body {
   font-weight: normal;
   font-style: normal;
   position: relative;
-  height: 100%;
+  height: auto;
   min-height: 100%; // Fallback to "vh" unit 
   min-height: 100vh;
   cursor: auto; } 
@@ -109,29 +110,28 @@ input[type="checkbox"] {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: .5em; // Fallback 
-  margin-bottom: .5rem; }
+  margin-bottom: .5em; }
 
 p {
   margin-top: 0;
-  margin-bottom: 1em; // Fallback 
-  margin-bottom: 1rem; }
+  margin-bottom: 1em; }
 
 abbr[title],
 abbr[data-original-title] {
   cursor: help; }
 
 address {
-  margin-bottom: 1em; // Fallback 
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   font-style: normal;
   line-height: inherit; }
 
-ol,ul,dl {
+ul,dl {
   margin-top: 0;
-  margin-bottom: 1em; // Fallback 
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   list-style-type: none; }
+
+ol {
+  list-style-type: decimal; }
 
 ol ol,ul ul,ol ul,ul ol {
   margin-bottom: 0; }
@@ -140,19 +140,19 @@ dt {
   font-weight: $font-weight--bold; }
 
 dd {
-  margin-bottom: .5em; // Fallback 
-  margin-bottom: .5rem;
+  margin-bottom: .5em;
   margin-left: 0; }
 
 blockquote {
-  margin: 0 0 1em; // Fallback 
-  margin: 0 0 1rem; }
+  margin: 0 0 1em; }
 
 a {
   color: #0275d8;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1; }
 
-a:focus, a:hover {
+a:hover {
   color: #014c8c;
   text-decoration: underline; }
 

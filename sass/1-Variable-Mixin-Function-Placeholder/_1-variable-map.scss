@@ -52,8 +52,8 @@ $font-weight--bold: 700;
 
 
 $white: #fff;
-$black: #0b0b0b;
-$grey: #84898F;
+$black: hsl(90, 3%, 20%);
+$grey: hsl(90, 14%, 93%);
 
 
 // - Colorful - 
@@ -61,20 +61,19 @@ $grey: #84898F;
 // Color naming: http://chir.ag/projects/name-that-color 
 
 
-$fountain-blue: #52bab3;
-$emerald: #5ece7f;
-$sungalo: #e67478;
-$coral: #ff784f;
-$purple-majesty: #9279c3;
-$scooter: #39add1;
+$limeade: hsl(90, 100%, 40%);
+$dark-blue: hsl(232, 100%, 40%);
+$electric-violet: hsl(292, 100%, 40%);
+$buddha-gold: hsl(46, 100%, 40%);
 
 
 // -- Color Usage -- 
 
 
-$color-primary: $fountain-blue;
-$color-secondary: $scooter;
-$color-accent: $emerald;
+$color-primary: $limeade;
+$color-secondary: $dark-blue;
+$color-tertiary: $electric-violet;
+$color-quaternary: $buddha-gold;
 $color-shadow: rgba($black, .08);
 
 
@@ -82,22 +81,29 @@ $color-shadow: rgba($black, .08);
 // --- Color Maps --- 
 
 
-// -- Simple Color Map Palette -- 
+/*// -- Simple Color Map Palette -- 
 
 // Connected to bg-color() mixin, we can generate additional classes with it
 
 
 $ui-colors: ( 
-	default: $fountain-blue,
-	success: $emerald,
-	error: $sungalo,
-	warning: $coral,
-  info: $purple-majesty ); 
+  default: $fountain-blue,
+  success: $emerald,
+  error: $sungalo,
+  warning: $coral,
+  info: $purple-majesty ); */
 
 
 // -- All Color Palettes -- 
 
 // Conected to palette() function, through which we call colors 
+
+/* To ease front end */
+// blacks, base: headings, menu, footer titles
+// blacks, light: footer menu, sidebar title left (or even right)
+// blacks, x-light: Featured, footer text, sidebar mute text
+// blacks, xx-light: footer quote, advance page subtitle text 
+// grey, base: body background
 
 
 $palettes: (
@@ -105,27 +111,34 @@ $palettes: (
     base: $white
   ),
   grey: (
-    xx-light: lighten($grey, 43%),
-    x-light: lighten($grey, 35%),
-    light: lighten($grey, 12%),
-    base: $grey,
-    dark: darken($grey, 8%),
-    x-dark: darken($grey, 16%)
+    base: $grey
   ),
   blacks: (
-    light: lighten($black, 10%),
-    base: $black,
-    dark: darken($black, 10%)
+    xx-light: change_color($black, $saturation: 3%, $lightness: 60%),
+    x-light: change_color($black, $saturation: 3%, $lightness: 50%),
+    light: change_color($black, $saturation: 3%, $lightness: 40%),
+    base: $black
   ),
   primary: (
-    light: lighten($color-primary, 10%),
+    light: change_color($color-primary, $alpha: 0.55),
     base: $color-primary,
-    dark: darken($color-primary, 10%)
+    dark: change_color($color-primary, $saturation: 100%, $lightness: 25%)
   ),
   secondary: (
-    light: lighten($color-secondary, 10%),
+    light: change_color($color-secondary, $alpha: 0.55),
     base: $color-secondary,
-    dark: darken($color-secondary, 10%)
+    dark: change_color($color-secondary, $saturation: 100%, $lightness: 25%)
+  ),
+  tertiary: (
+    light: change_color($color-tertiary, $alpha: 0.55),
+    base: $color-tertiary,
+    dark: change_color($color-tertiary, $saturation: 100%, $lightness: 25%)
+  ),
+  quaternary: (
+    light: change_color($color-quaternary, $alpha: 0.55),
+    base: $color-quaternary,
+    dark: change_color($color-quaternary, $saturation: 100%, $lightness: 33%),
+    x-dark: change_color($color-quaternary, $saturation: 100%, $lightness: 25%)
   )
 );
 

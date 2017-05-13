@@ -17,7 +17,8 @@
   height: auto;
   min-height: 100%; // Fallback to "vh" unit 
   min-height: calc(100vh - 150px); // Counting in footer's height 100px. To see everything in at least 100% height
-  z-index: 2000; }
+  z-index: 2000;
+  background-color: #f1f1f1; }
 
 
 

@@ -17,8 +17,8 @@ $base__line-height: 24px;
 // -- Font Family --
 
 
-$font-family--primary: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif;
-$font-family--secondary: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif;
+$font-family--primary: 'Open Sans',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
+$font-family--secondary: 'Open Sans',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
 $font-family--tertiary: // Safari for OS X and iOS (San Francisco)
                         -apple-system,
                         // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
@@ -26,12 +26,12 @@ $font-family--tertiary: // Safari for OS X and iOS (San Francisco)
                         // Chrome < 56 for OS X (San Francisco)
                         BlinkMacSystemFont,
                         // Windows
-                        "Segoe UI",
+                        'Segoe UI',
                         // Android
-                        "Roboto",
+                        'Roboto',
                         // Basic web fallback
-                        "Helvetica Neue", Arial, sans-serif; // In case, second family becomes another typeface (for dual typeface web page)
-$font-family--print: Georgia,Cambria,"Times New Roman",Times,serif; 
+                        'Helvetica Neue', Arial, sans-serif; // In case, second family becomes another typeface (for dual typeface web page)
+$font-family--print: Georgia,Cambria,'Times New Roman',Times,serif; 
 
 
 // -- Font Weights --
@@ -52,8 +52,8 @@ $font-weight--bold: 700;
 
 
 $white: #fff;
-$black: hsl(90, 3%, 20%);
-$grey: hsl(90, 14%, 93%);
+$black: #000;
+$grey: #ddd;
 
 
 // - Colorful - 
@@ -61,19 +61,23 @@ $grey: hsl(90, 14%, 93%);
 // Color naming: http://chir.ag/projects/name-that-color 
 
 
-$limeade: hsl(90, 100%, 40%);
-$dark-blue: hsl(232, 100%, 40%);
-$electric-violet: hsl(292, 100%, 40%);
-$buddha-gold: hsl(46, 100%, 40%);
+$aqua: hsl(178, 100%, 50%);
+$spring-green: hsl(150, 100%, 50%);
+$gold: hsl(50, 100%, 50%);
+$magenta: hsl(302, 100%, 50%);
+$yellow: hsl(60, 100%, 50%);
+$blue: hsl(232, 100%, 50%);
 
 
 // -- Color Usage -- 
 
 
-$color-primary: $limeade;
-$color-secondary: $dark-blue;
-$color-tertiary: $electric-violet;
-$color-quaternary: $buddha-gold;
+$first: $aqua;
+$second: $spring-green;
+$third: $gold;
+$fourth: $magenta;
+$fifth: $yellow;
+$sixth: $blue;
 $color-shadow: rgba($black, .08);
 
 
@@ -99,11 +103,12 @@ $ui-colors: (
 // Conected to palette() function, through which we call colors 
 
 /* To ease front end */
-// blacks, base: headings, menu, footer titles
-// blacks, light: footer menu, sidebar title left (or even right)
-// blacks, x-light: Featured, footer text, sidebar mute text
-// blacks, xx-light: footer quote, advance page subtitle text 
-// grey, base: body background
+// first: cyan
+// second: green
+// third: orange
+// fourth: purple
+// fifth: yellow
+// sixth: blue
 
 
 $palettes: (
@@ -114,37 +119,32 @@ $palettes: (
     base: $grey
   ),
   blacks: (
-    xx-light: change_color($black, $saturation: 3%, $lightness: 60%),
     x-light: change_color($black, $saturation: 3%, $lightness: 50%),
-    light: change_color($black, $saturation: 3%, $lightness: 40%),
     base: $black
   ),
-  primary: (
-    light: change_color($color-primary, $alpha: 0.55),
-    base: $color-primary,
-    dark: change_color($color-primary, $saturation: 100%, $lightness: 25%)
+  first: (
+    base: $first,
+    dark: change_color($first, $saturation: 100%, $lightness: 25%)
   ),
-  secondary: (
-    light: change_color($color-secondary, $alpha: 0.55),
-    base: $color-secondary,
-    dark: change_color($color-secondary, $saturation: 100%, $lightness: 25%)
+  second: (
+    base: $second
   ),
-  tertiary: (
-    light: change_color($color-tertiary, $alpha: 0.55),
-    base: $color-tertiary,
-    dark: change_color($color-tertiary, $saturation: 100%, $lightness: 25%)
+  third: (
+    base: $third
   ),
-  quaternary: (
-    light: change_color($color-quaternary, $alpha: 0.55),
-    base: $color-quaternary,
-    dark: change_color($color-quaternary, $saturation: 100%, $lightness: 33%),
-    x-dark: change_color($color-quaternary, $saturation: 100%, $lightness: 25%)
+  fourth: (
+    base: $fourth
+  ),
+  fifth: (
+    base: $fifth
+  ),
+  sixth: (
+    base: $sixth
   )
 );
-
 
 
 // --- Transitions --- 
 
 
-$tr: 0.2s;
+$tr: 0.2s linear;

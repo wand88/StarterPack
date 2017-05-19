@@ -13,12 +13,19 @@
 // p: 
 
 
-p,.p {
-  font-size: 1em;
+p,.p,.lead {
   line-height: 1.5;
   font-family: $font-family--secondary;
   font-weight: $font-weight--regular; }
 
+p,.p {
+  font-size: em(16px); }
+
+.lead {
+  font-size: em(18px); }
+
+// p: 
+// lead: 
 
 
 // -- Headings -- 
@@ -26,20 +33,20 @@ p,.p {
 // .h1-h6 and .p exist, if we need to use that class in other HTML element, than h1-h6 or p
 
 
-// h1: advance/theory page title, 
-// h2: section title, advance/theory page block title 
-// h3: featured, footer web site text 
-// h4: footer titles
-// h5:
-// h6:
+// h1: 
+// h2: 
+// h3: 
+// h4: 
+// h5: 
+// h6: 
 
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family--primary;
   font-weight: $font-weight--regular;
-  line-height: 1.1;
-  margin-bottom: 0.5em; }
+  line-height: 1.2;
+  margin-bottom: 0; }
 
 h1, .h1 {
   font-size: em(20px); }
@@ -68,13 +75,12 @@ h6, .h6 {
 // d2:
 // d3:
 // d4:
-// lead: text on the baner
 
 
-.d1,.d2,.d3,.d4,.lead {
+.d1,.d2,.d3,.d4 {
   font-family: $font-family--primary;
   font-weight: $font-weight--light;
-  line-height: 1.1;
+  line-height: 1.2;
   color: inherit; }
 
 .d1 {
@@ -88,9 +94,6 @@ h6, .h6 {
 
 .d4 {
   font-size: em(22px); }
-
-.lead {
-  font-size: em(20px); }
 
 
 

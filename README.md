@@ -296,7 +296,9 @@ I will soon create many great working font combinations (free fonts), for you to
 
 **Example projects with this repo as a setup:**
 
-1. [Lazar Eric's Personal Website](https://lazareric.com)
+1. [Lazar Eric's Portfolio Web site](https://lazareric.com)
+2. [Learn for Tree](https://learnfortree.com)
+3. [Marko's Personal Web site](http://marko.timp.rs)
 
 **Author**: Lazar Erić, lazar@lazareric.com
 

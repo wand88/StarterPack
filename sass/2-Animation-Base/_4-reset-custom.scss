@@ -36,7 +36,8 @@ body {
   height: auto;
   min-height: 100%; // Fallback to "vh" unit 
   min-height: 100vh;
-  cursor: auto; } 
+  cursor: auto;
+  overflow-x: hidden; } 
 
 
 
@@ -152,4 +153,6 @@ a {
   cursor: pointer;
   line-height: 1; }
 
+section, li {
+  line-height: 0; }
 

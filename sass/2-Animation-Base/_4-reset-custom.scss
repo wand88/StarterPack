@@ -66,16 +66,12 @@ input[type="tel"] {
   appearance:none;
   box-sizing: border-box; }
 
-input[type="email"] {
+input[type="email"], input[type="text"] {
   appearance:none;
   box-sizing: border-box;
   border-style: none;
   border: none;
   border-radius: 0; }
-
-input[type="text"] {
-  appearance:none;
-  box-sizing: border-box; }
 
 input[type="date"] {
   appearance:none;

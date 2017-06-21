@@ -1,44 +1,5 @@
 
 
-// Start code here 
+// Start code here   
 
-
-
-.typeA {
-	display: inline-block;
-	overflow: hidden;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-family: monospace; 
-	white-space: nowrap;
-	color: #222;
-	letter-spacing: 0.05em;
-	font-size: 1.5em;
-	border-right: 10px solid #222;
-	animation: typeA 1.55s steps(16,end),
-						 blinkA 1.15s step-end infinite; }
-
-
-@keyframes typeA { 
-	from { width: 0; }
-	to { width: 200px; } } 
-
-@keyframes blinkA { 
-	0% { border-color: transparent } 
-	50% { border-color: #222; }
-	100% { border-color: transparent } }
-
-
-
-@keyframes shrinkA {
-	to { width: 0px; } }
-
-@keyframes loading-barA {
-	0%, 100% {
-    transform: translate(-33px,0); }
-	50% {
-    transform: translate(95px,0); } } 
-
-@keyframes destroyA { 
-	to { height: 0; } } 
 

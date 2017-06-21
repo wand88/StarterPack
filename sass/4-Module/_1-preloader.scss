@@ -11,9 +11,25 @@
 	height: 100vh;
 	z-index: 25000;
 	overflow: hidden;
-	animation: fadeOut 0.6s ease 1.2s,
-						 destroyA 0.2s ease 1.8s;
 	animation-fill-mode: forwards; }
 
 .no-cssanimations .preloader { /* Mondernizr fallback, for browsers with no support for css animation */
 	display: none !important; }
+
+/*
+
+Use this jQuery, if using the preloader 
+
+// Preloader
+$('body').imagesLoaded( function() {
+	el = $('.preloader');
+	el.addClass('fadeOut-2');
+	el.on('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+		function () {
+		el.css('display', 'none');	
+	});	
+});
+
+// + Apply classes to activate animation on page elements (like hero elemenents), header/page initiation, etc.
+
+*/

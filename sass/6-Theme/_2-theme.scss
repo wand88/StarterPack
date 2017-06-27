@@ -15,8 +15,6 @@
 // Due to SCSS mixin complexity and SCSS code, words white and black, are turned into #fff and #000, instead of words, in class names.
 // Base on that classes are bg-whites (so with white and black are in plural, to work), bg-blacks... 
 // And bg-grey.., bg-primary.., bg-secondary.. They have intuitive naming, and are not bug affected.
-
-
 // ie. 
 
 // .bg-whites--base { background-color: #fff; } 
@@ -31,7 +29,6 @@
 
 
 // Here are all initially generated color classes (from template) 
-
 // ie. 
 
 // .color-blacks--base { color: #111; }

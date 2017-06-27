@@ -22,13 +22,13 @@
     position: relative; 
     overflow-x: visible !important;
 
-    section, li {
+    & section, li {
       line-height: 1.8; }
 
-    .main {
-      background-color: #fff; }
+    & .menu-mob, .bmenu, .logo, .offpage, .main {
+      display: none; }
 
-    p {
+    & p {
       font-size: pt(16);
       max-width: 500px;
       margin-left: auto;
@@ -37,69 +37,69 @@
       margin-bottom: cm(10);
       color: palette(blacks,base) !important; }
 
-    h1, h2, h3, h4, h5, h6 {
+    & h1, h2, h3, h4, h5, h6 {
       font-family: $font-family--tertiary;
       margin: .4cm 0; }
 
-    h1 {
+    & h1 {
       font-size: pt(50); }
 
-    h2 {
+    & h2 {
       font-size: pt(38); }
 
-    h3 {
+    & h3 {
       font-size: pt(28); }
 
-    h4 {
+    & h4 {
       font-size: pt(21); }
 
-    h5 {
+    & h5 {
       font-size: pt(18); }
 
-    h6 {
+    & h6 {
       font-size: pt(16); }
 
-    code {
+    & code {
       font-size: pt(14);
       background-color: palette(greys,base);
       color: #333; }
 
-    a {
+    & a {
       font-family: $font-family--print;
       font-size: pt(18);
       text-decoration: underline;
       color: #444;
       word-wrap: break-word; }
 
-    ol, dl, img, blockquote, span {
+    & ol, dl, img, blockquote, span {
     page-break-inside: avoid; }
 
-    h1, h2, h3, h4, h5, h6, img {
+    & h1, h2, h3, h4, h5, h6, img {
     page-break-after: avoid;  }
 
-    img {
+    & img {
       display: block;
       margin: cm(15) auto; 
       max-width: 500px; 
       border: none !important; }
 
-    ul, ol {
+    & ul, ol {
       margin-left: 0.5cm;
       margin-top: cm(15);
       margin-bottom: cm(25); }
 
-    ul li, ol li {
+    & ul li, ol li {
       font-size: pt(15);
       color: #111;
       line-height: 1.8; }
 
-    ul {
+    & ul {
       list-style-type: none; }
 
-    ol {
+    & ol {
       list-style-type: decimal; }
 
-    blockquote {
+    & blockquote {
       position: relative;
       display: block;
       margin-left: auto;

@@ -76,7 +76,7 @@
 
 @mixin bg-colors($map) {
   @each $theme, $color in $map {
-    &--#{$theme} {
+    bg--#{$theme} {
       background-color: #{$color}; }
   }
 }
@@ -90,7 +90,6 @@
 
 @mixin map-to-classes($map, $property, $sel, $divider: '', $divider2: '') {
     $sel: if($sel == '' and &, &, $sel);
-    @debug $sel;
 
     #{$sel} {
         @each $k, $v in $map {
@@ -106,7 +105,6 @@
         }
     }
 }
-
 
 
 

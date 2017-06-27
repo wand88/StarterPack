@@ -1,0 +1,33 @@
+
+
+// Start code here 
+
+
+// Homepage
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  opacity: 1;
+  background: #fff;
+  z-index: 100;
+  animation: fadeIn .7s;
+  transition: transform .5s, opacity .3s, display 0s 0s; }
+
+.offpage-active .main {
+  display: none;
+  opacity: 0;
+  transition: transform .5s, opacity .3s, display 0s .3s;
+
+  @media only screen and (min-width: 1200px) {
+    display: block;
+    position: fixed;
+    opacity: 1;
+    transform: translateX(-14%); }}
+
+// test, to delete
+.test {
+  position: relative;
+  width: 100%;
+  height: 1010px; }

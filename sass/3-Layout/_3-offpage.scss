@@ -1,0 +1,144 @@
+
+
+// Start code here 
+
+
+.offpage {
+  display: none;
+  position: relative;
+  background: #fff;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: 300;
+  transition: width .5s, transform .5s, opacity .3s, display 0s 0s;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+
+  @media only screen and (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    width: calc(100% - 80px);
+    transform: translateX(100%);
+    box-shadow: -1px 0 0 rgba(0,0,0,.08); }}
+
+.offpage-active .offpage {
+  display: block;
+  opacity: 1;
+  transition: width .5s, transform .5s, opacity .3s, display 0s 0s; 
+  
+  @media only screen and (min-width: 1200px) {
+    transform: translateX(0%); }}
+
+.offpage--half .offpage {
+  @media only screen and (min-width: 1200px) {
+    width: 50%;
+    transition: width .5s, transform .5s, opacity .3s, display 0s 0s; }}
+
+.offpage__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  z-index: 410; 
+
+  @media only screen and (min-width: 1200px) {
+    position: relative;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08); }}
+
+.offpage__body {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: #fff; 
+
+  @media only screen and (min-width: 1200px) {
+    position: relative;
+    min-height: unset;
+    height: calc(100% - 60px);
+    overflow: hidden; }}
+
+.offpage__content {
+  position: relative;
+  width: 100%;
+  height: auto; 
+  height: 1400px; // For test
+  padding-top: 60px; 
+
+  @media only screen and (min-width: 1200px) {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 0; }}
+
+.close {
+  position: relative;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: #333;
+    left: 50%;
+    top: calc(50% + 1px);
+    transform: translate(-50%,-50%) rotate(-45deg);
+    transform-origin: 0 50%; }
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: #333;
+    left: 50%;
+    top: calc(50% + 1px);
+    transform: translate(-50%,-50%) rotate(45deg);
+    transform-origin: 0 50%; }}
+
+.close-mob {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  width: 60px; 
+
+  @media only screen and (min-width: 1200px) {
+    display: none !important; }}
+
+.offpage-active .close-mob {
+  display: inline-block;
+  animation: fadeIn .3s 0s forwards; }
+
+.close-desk {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  width: 60px; }
+
+.close.close-desk {
+  transform: rotate(180deg); }
+
+.offpage-active .close-desk {
+  @media only screen and (min-width: 1200px) {
+    display: inline-block;
+    animation: fadeIn .3s .3s forwards; }}
+
+
+// --- Offpages --- 
+
+.about-page, .contact-page {
+  opacity: 0;
+  display: none;
+  animation: fadeIn .7s 0s forwards;
+
+  @media only screen and (min-width: 1200px) {
+    animation: fadeIn .3s .4s forwards; }}

@@ -1,0 +1,162 @@
+
+
+// Start code here 
+
+
+
+// Header
+.header {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background: transparent;
+	z-index: 400;
+	top: 0;
+	right: 0;
+	font-weight: 600;
+	line-height: 60px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
+
+	@media only screen and (min-width: 1200px) {
+		box-shadow: none;
+		width: auto; }}
+	
+.about .header {
+	background: hsla(40, 88%, 93%, 1); 
+	
+	@media only screen and (min-width: 1200px) {
+		background: transparent; }}
+	
+.contact .header {
+	background: hsla(90, 88%, 93%, 1); 
+
+	@media only screen and (min-width: 1200px) {
+		background: transparent; }}
+
+// Logo
+.logo {
+	display: inline-block;
+	line-height: 0;
+	top: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 450;
+
+	@media only screen and (min-width: 1200px) {
+		left: 24px;
+		transform: none; }}
+
+// Menu
+.menu {
+	height: 100%; }
+
+.menu__item {
+	display: inline-block;
+	height: 100%;
+	margin-right: 20px;
+
+	&:last-child {
+		margin-right: 24px; }}
+	
+.menu__item-link {
+	display: inline-block;
+	height: 100%;
+	line-height: 60px;
+	font-size: .75em;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .4px;
+	color: #333;
+	transition: opacity .3s;
+
+	&:hover {
+		opacity: .5; }}
+
+.menu__item-button {
+	display: inline-block;
+	height: 38px;
+	margin-right: 20px;
+
+	&:last-child {
+		margin-right: 24px; }}
+
+// Menu mobile    
+.menu-mob {
+	display: none; 
+	top: 60px;
+	left: 0;
+	z-index: 500;
+	width: 100%; 
+	background: #fff;
+	box-shadow: 0 1px 0 rgba(0,0,0,.08); }
+
+.menu-mob__item {
+	display: block;
+	position: relative;
+	width: 100%; 
+	
+	& a {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		font-size: .75em;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: .4px;
+		color: #487ff3; }}
+
+.menu-mob__item-button {
+	& a {
+		background: #487ff3;
+		color: #fff; }}
+		
+
+// Headroom.js Classes 
+
+// To implement it use this script:
+
+/* 
+<script>
+(function() {
+
+	var header = new Headroom(document.querySelector("#header"), {
+    tolerance: 5,
+    offset : 205,
+    classes: {
+	    initial: "headroom",
+	    pinned: "headroom--pinned",
+	    unpinned: "headroom--unpinned"
+    }
+	});
+	header.init();
+
+}());
+</script> */ 
+
+// or instead of those classes, can add these ones: 
+
+/* 
+classes: {
+  initial: "animated",
+  pinned: "slideDown",
+  unpinned: "slideUp"
+} */
+
+.headroom {
+	transition: transform .25s ease-in-out;
+	will-change: transform; }
+
+.headroom--pinned {
+	transform: translateY(0); }
+
+.headroom--unpinned {
+	transform: translateY(-100%); } 
+
+.header--fixed {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0; }

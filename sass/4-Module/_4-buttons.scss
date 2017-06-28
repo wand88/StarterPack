@@ -26,7 +26,29 @@
 	width: 28px; 
 	height: 18px;
 	cursor: default;
-	z-index: 450; }
+	z-index: 450; 
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 55px;
+		height: 55px;
+		background: #000;
+		border-radius: 50%;
+		z-index: -1;
+		opacity: 0;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		transform-origin: center;
+		transition: opacity .3s; }
+	&:active {
+		&:before {
+			opacity: .05; 
+			
+			@media only screen and (min-width: 1200px) {
+			opacity: 0; }}}}
 
 .bmenu__right {
 	top: 23px;

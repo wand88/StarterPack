@@ -296,10 +296,20 @@
     });
 
     // Close offpage
-    $('.close-mob, .close-desk, .homepage, .logo, .menu__item-button').click(function(){
+    $('.close-mob, .close-desk, .logo, .menu__item-button').click(function(){
       $('body').animate({scrollTop: '0'}, 0);
       if($('body').hasClass('offpage-active')){
         $('body').removeClass('offpage-active');
+      } 
+    });
+
+    // Responsive (for desktop)
+    $('.homepage').click(function(){
+      if ($(window).width() >= 1200){ 
+        $('body').animate({scrollTop: '0'}, 0);
+        if($('body').hasClass('offpage-active')){
+          $('body').removeClass('offpage-active');
+        } 
       } 
     });
 

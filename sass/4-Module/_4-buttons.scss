@@ -12,21 +12,36 @@
 	border-radius: 1px;
 	font-size: .75em;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .4px;
-	color: #fff;
-	background-color: #487ff3;
-	transition: transform .5s;
+	color: #487ff3;
+	background-color: #fff;
+	transition: transform .5s, color .3s, background-color .3s;
 	
 	&:active { 
-		transform: scale(.95); }}
+		transform: scale(.95); }
+
+	@media only screen and (min-width: 1200px) {
+		transition: transform .5s, color .5s, background-color .5s; }}
+
+.about .btn-0 {
+	color: #fff;
+	background-color: #487ff3; }
+
+.contact .btn-0 {
+	color: #fff;
+	background-color: #487ff3; }
+
+.headroom--not-top .btn-0 {
+	color: #fff;
+	background-color: #487ff3; }
 
 // Mobile menu button 
 .bmenu { 
 	width: 28px; 
 	height: 18px;
 	cursor: default;
-	z-index: 450; 
+	z-index: 450;
 
 	&:before {
 		content: '';
@@ -48,7 +63,7 @@
 			opacity: .05; 
 			
 			@media only screen and (min-width: 1200px) {
-			opacity: 0; }}}}
+				opacity: 0; }}}}
 
 .bmenu__right {
 	top: 23px;
@@ -59,8 +74,18 @@
 	height: 1px;
 	right: 0;
 	position: absolute;
-	background-color: #333;
-	border-radius: 1px; }
+	background-color: #fff;
+	border-radius: 1px;
+	transition: background-color .3s; }
+
+.about .btop, .about .bmid, .about .bbot {
+	background-color: #000; }
+
+.contact .btop, .contact .bmid, .contact .bbot {
+	background-color: #000; } 
+
+.headroom--not-top .btop, .headroom--not-top .bmid, .headroom--not-top .bbot {
+	background-color: #000; } 
 
 .x1 {
 	& .btop {

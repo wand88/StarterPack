@@ -3,7 +3,6 @@
 // Start code here 
 
 
-
 // Header
 .header {
 	position: fixed;
@@ -15,29 +14,34 @@
 	right: 0;
 	font-weight: 600;
 	line-height: 60px;
-	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
+	transition: background .3s;
 
 	@media only screen and (min-width: 1200px) {
 		box-shadow: none;
-		width: auto; }}
+		transition: background .5s; }}
 	
 .about .header {
 	background: hsla(40, 88%, 93%, 1); 
 	
 	@media only screen and (min-width: 1200px) {
+		width: auto;
 		background: transparent; }}
 	
 .contact .header {
 	background: hsla(90, 88%, 93%, 1); 
 
 	@media only screen and (min-width: 1200px) {
+		width: auto;
 		background: transparent; }}
+
+.headroom--not-top {
+	background: #fff; }
 
 // Logo
 .logo {
 	display: inline-block;
 	line-height: 0;
-	top: 16px;
+	top: 17px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 450;
@@ -66,7 +70,28 @@
 			opacity: .05; 
 			
 			@media only screen and (min-width: 1200px) {
-			opacity: 0; }}}}
+				opacity: 0; }}}}
+
+.logo-path {
+	transition: fill .3s; 
+
+	@media only screen and (min-width: 1200px) {
+		transition: fill .5s; }}
+
+.about .logo-path {
+	fill: #000; 
+
+	@media only screen and (min-width: 1200px) {
+		fill: #fff; }}
+
+.contact .logo-path {
+	fill: #000;
+
+	@media only screen and (min-width: 1200px) {
+		fill: #fff; }}
+
+.headroom--not-top .logo-path {
+	fill: #000; }
 
 // Menu
 .menu {
@@ -86,13 +111,22 @@
 	line-height: 60px;
 	font-size: .75em;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .4px;
-	color: #333;
-	transition: opacity .3s;
+	color: #fff;
+	transition: opacity .3s, color .3s;
 
 	&:hover {
-		opacity: .5; }}
+		opacity: .5; }
+
+	@media only screen and (min-width: 1200px) {
+		transition: opacity .3s, color .5s; }}
+
+.about .menu__item-link {
+	color: #000; }
+
+.contact .menu__item-link {
+	color: #000; }
 
 .menu__item-button {
 	display: inline-block;
@@ -101,6 +135,9 @@
 
 	&:last-child {
 		margin-right: 24px; }}
+
+.headroom--not-top .menu__item-link {
+	color: #000; }
 
 // Menu mobile    
 .menu-mob {
@@ -126,7 +163,7 @@
 		line-height: 50px;
 		font-size: .75em;
 		text-transform: uppercase;
-		font-weight: 500;
+		font-weight: 700;
 		letter-spacing: .4px;
 		color: #487ff3; }}
 
@@ -134,7 +171,8 @@
 	& a {
 		background: #487ff3;
 		color: #fff; }}
-		
+
+
 
 // Headroom.js Classes 
 
@@ -166,19 +204,3 @@ classes: {
   pinned: "slideDown",
   unpinned: "slideUp"
 } */
-
-.headroom {
-	transition: transform .25s ease-in-out;
-	will-change: transform; }
-
-.headroom--pinned {
-	transform: translateY(0); }
-
-.headroom--unpinned {
-	transform: translateY(-100%); } 
-
-.header--fixed {
-	position: fixed;
-	right: 0;
-	left: 0;
-	top: 0; }

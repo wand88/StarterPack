@@ -296,7 +296,8 @@
       $('body').animate({scrollTop: '0'}, 0);
       if($('body').hasClass('offpage-active')){
         $('body').removeClass('offpage-active');
-      } 
+      }
+      $('.offpage__content').css('display','none');
     });
 
     // Responsive (for desktop)
@@ -305,7 +306,8 @@
         $('body').animate({scrollTop: '0'}, 0);
         if($('body').hasClass('offpage-active')){
           $('body').removeClass('offpage-active');
-        } 
+        }
+        $('.offpage__content').css('display','none');
       } 
     });
 

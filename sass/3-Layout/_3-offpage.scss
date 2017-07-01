@@ -12,8 +12,10 @@
   min-height: 100%;
   height: auto;
   z-index: 300;
-  transition: width .5s, transform .5s, opacity .3s, display 0s 0s;
+  opacity: 0;
+  transition: width .5s, transform .5s, display 0s 0s;
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn .5s forwards;
 
   @media only screen and (min-width: 1200px) {
     display: block;
@@ -28,8 +30,7 @@
 
 .offpage-active .offpage {
   display: block;
-  opacity: 1;
-  transition: width .5s, transform .5s, opacity .3s, display 0s 0s; 
+  transition: width .5s, transform .5s, display 0s 0s;
   
   @media only screen and (min-width: 1200px) {
     transform: translateX(0%); }}
@@ -37,7 +38,7 @@
 .offpage--half .offpage {
   @media only screen and (min-width: 1200px) {
     width: 50%;
-    transition: width .5s, transform .5s, opacity .3s, display 0s 0s; }}
+    transition: width .5s, transform .5s, display 0s 0s; }}
 
 .offpage__header {
   position: fixed;

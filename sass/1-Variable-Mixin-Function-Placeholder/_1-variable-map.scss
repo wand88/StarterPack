@@ -62,23 +62,15 @@ $grey: #ddd;
 // Color naming: http://chir.ag/projects/name-that-color 
 
 
-$aqua: hsl(178, 100%, 50%);
-$spring-green: hsl(150, 100%, 50%);
-$gold: hsl(50, 100%, 50%);
-$magenta: hsl(302, 100%, 50%);
-$yellow: hsl(60, 100%, 50%);
-$blue: hsl(232, 100%, 50%);
+$cornflower-blue: #487ff3;
+$sunshade: #ffad33;
 
 
 // -- Color Usage -- 
 
 
-$first: $aqua;
-$second: $spring-green;
-$third: $gold;
-$fourth: $magenta;
-$fifth: $yellow;
-$sixth: $blue;
+$first: $cornflower-blue;
+$second: $sunshade;
 $color-shadow: rgba($black, .08);
 
 
@@ -104,12 +96,8 @@ $color-shadow: rgba($black, .08);
 // Conected to palette() function, through which we call colors 
 
 /* To ease front end */
-// first: cyan
-// second: green
-// third: orange
-// fourth: purple
-// fifth: yellow
-// sixth: blue
+// first: blue
+// second: orange
 
 
 $palettes: (
@@ -124,23 +112,10 @@ $palettes: (
     base: $black
   ),
   first: (
-    base: $first,
-    dark: change_color($first, $saturation: 100%, $lightness: 25%)
+    base: $first
   ),
   second: (
     base: $second
-  ),
-  third: (
-    base: $third
-  ),
-  fourth: (
-    base: $fourth
-  ),
-  fifth: (
-    base: $fifth
-  ),
-  sixth: (
-    base: $sixth
   )
 );
 

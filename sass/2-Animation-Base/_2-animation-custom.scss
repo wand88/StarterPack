@@ -21,3 +21,31 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
+
+// FadeOut
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; }
+
+  to {
+    opacity: 0; }}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+
+  to {
+    opacity: 0; }}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut; }
+
+.fadeOut2 {
+  animation: fadeOut 1s; }
+
+// Loader pulse 
+@keyframes loaderPulse {
+  75%, 100% {
+    transform: translateX(-50%) scale(2);
+    opacity: 0; }}

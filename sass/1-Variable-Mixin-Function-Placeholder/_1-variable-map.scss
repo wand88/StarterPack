@@ -41,7 +41,7 @@ $font-weight--light: 300;
 $font-weight--regular: 400;
 $font-weight--medium: 500;
 $font-weight--bold: 700;
-$font-weight--black: 800;
+$font-weight--black: 900;
 
 
 // --- Colors --- 
@@ -148,4 +148,4 @@ $palettes: (
 // --- Transitions --- 
 
 
-$tr: 0.2s linear;
+$tr: cubic-bezier(0.77, 0, 0.175, 1);

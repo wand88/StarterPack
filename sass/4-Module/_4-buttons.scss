@@ -24,17 +24,13 @@
 	@media only screen and (min-width: 1200px) {
 		transition: transform .5s, color .5s, background-color .5s; }}
 
-.about .btn-0 {
+.about .btn-0, .contact .btn-0 {
 	color: #fff;
-	background-color: #487ff3; }
-
-.contact .btn-0 {
-	color: #fff;
-	background-color: #487ff3; }
+	background-color: $first; }
 
 .headroom--not-top .btn-0 {
 	color: #fff;
-	background-color: #487ff3; }
+	background-color: $first; }
 
 // Mobile menu button 
 .bmenu { 
@@ -78,11 +74,8 @@
 	border-radius: 1px;
 	transition: background-color .3s; }
 
-.about .btop, .about .bmid, .about .bbot {
+.about .btop, .about .bmid, .about .bbot, .contact .btop, .contact .bmid, .contact .bbot {
 	background-color: #000; }
-
-.contact .btop, .contact .bmid, .contact .bbot {
-	background-color: #000; } 
 
 .headroom--not-top .btop, .headroom--not-top .bmid, .headroom--not-top .bbot {
 	background-color: #000; } 

@@ -78,14 +78,8 @@
 	@media only screen and (min-width: 1200px) {
 		transition: fill .5s; }}
 
-.about .logo-path {
+.about .logo-path, .contact .logo-path {
 	fill: #000; 
-
-	@media only screen and (min-width: 1200px) {
-		fill: #fff; }}
-
-.contact .logo-path {
-	fill: #000;
 
 	@media only screen and (min-width: 1200px) {
 		fill: #fff; }}
@@ -122,10 +116,7 @@
 	@media only screen and (min-width: 1200px) {
 		transition: opacity .3s, color .5s; }}
 
-.about .menu__item-link {
-	color: #000; }
-
-.contact .menu__item-link {
+.about .menu__item-link, .contact .menu__item-link  {
 	color: #000; }
 
 .menu__item-button {

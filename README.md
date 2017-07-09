@@ -6,8 +6,7 @@ Packing **best practice** grid, very useful mixins, color palette map and functi
 **Entire HTML + CSS + JS = 33.7kb (gziped)** *(without Google font and jquery.min.js).*
 In general, this setup, is *all you need for 85% of web projects*.
 
-How to guide: [Starterpack guide](https://lazareric.com)
-
+How to guide: [Starterpack guide](https://lazareric.com)<br>
 Click on starterpack in the menu.
 
 **Author**: Lazar Erić, lazar@lazareric.com

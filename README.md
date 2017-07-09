@@ -7,6 +7,7 @@ Packing **best practice** grid, very useful mixins, color palette map and functi
 In general, this setup, is *all you need for 85% of web projects*.
 
 How to guide: [Starterpack guide](https://lazareric.com)
+
 Click on starterpack in the menu.
 
 **Author**: Lazar Erić, lazar@lazareric.com

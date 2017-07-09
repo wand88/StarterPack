@@ -3,10 +3,10 @@ Starterpack is a frontend framework, I started, in need of bulletproof code Boot
 
 Packing **best practice** grid, very useful mixins, color palette map and function, few, most useful js plugins, and more.
 
-**Entire HTML + CSS + JS = 33.7kb (gziped)** *(without Google font and jquery.min.js).*
+**Entire HTML + CSS + JS = 33.7kb (gziped)** *(without Google font and jquery.min.js).*<br>
 In general, this setup, is *all you need for 85% of web projects*.
 
-How to guide: [Starterpack guide](https://lazareric.com)<br>
+How to guide: [Starterpack guide](https://lazareric.com).<br>
 Click on starterpack in the menu.
 
 **Author**: Lazar Erić, lazar@lazareric.com

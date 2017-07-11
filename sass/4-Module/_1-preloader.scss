@@ -27,6 +27,14 @@
   transform: translateX(-50%);
   animation: loaderPulse .9s linear infinite; }
 
+.loader-2 {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid $first;
+  display: block;
+  animation: loaderPulse .9s linear infinite; }
+  
 /*
 
 Use this jQuery, if using the preloader 

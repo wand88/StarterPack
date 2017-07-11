@@ -66,20 +66,28 @@
     height: calc(100% - 60px);
     overflow: hidden; }}
 
+.offpage__body--loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1; }
+
 .offpage__content {
   display: none;
   position: relative;
   width: 100%;
   height: auto;
-  padding-top: 60px; 
+  padding: 100px 30px 145px 30px;
+  z-index: 2;
 
   @media only screen and (min-width: 1200px) {
     position: relative;
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
-    padding-top: 0; }}
-
+    padding: 60px 30px 145px 30px; }}
+    
 .about-page, .contact-page {
   display: none;
   opacity: 0;
@@ -89,6 +97,13 @@
     opacity: 1;
     animation: fadeIn .5s; }}
 
+.page-box {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #fff; }
+  
 .close {
   position: relative;
   
@@ -181,4 +196,5 @@
   z-index: 200;
   width: 100%;
   height: 100%;
-  background: transparent; }
+  background: transparent;
+  cursor: url('../img/svg/cursor.svg'), auto; }

@@ -50,6 +50,7 @@
   <meta name="apple-mobile-web-app-title" content="Landing page" /> <!-- Mobile / Web app Title -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" /> <!-- iOS status bar Color -->
 
   <!-- Windows 8 meta tags -->
   <meta name="application-name" content="Landing page" /> <!-- App's name -->
@@ -99,6 +100,9 @@
   <!--[if lt IE 8]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+
+  <!-- Offpage loader for mobile -->
+  <span class="loader-2 offpage__body--loader hide-1200"></span>
 
   <!-- start Preloader -->
   <div class="preloader bg-whites--base fixed hide-print">
@@ -180,6 +184,7 @@
       <a href="javascript:void(0)" class="close close-desk float-left hide-all"><span></span></a>
     </div>  
     <div class="offpage__body">
+      <span class="loader-2 offpage__body--loader hide-all display-1200-block"></span>
       <!-- About page -->
       <div class="offpage__content about-page">
         <!-- About page content -->

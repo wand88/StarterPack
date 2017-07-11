@@ -71,8 +71,7 @@
 	right: 0;
 	position: absolute;
 	background-color: #fff;
-	border-radius: 1px;
-	transition: background-color .3s; }
+	border-radius: 1px; }
 
 .about .btop, .about .bmid, .about .bbot, .contact .btop, .contact .bmid, .contact .bbot {
 	background-color: #000; }
@@ -84,18 +83,18 @@
 	& .btop {
 		top: 0;
 		transform-origin: 100% 100%;
-		transition: transform .4s, top .4s, transform-origin .4s;
+		transition: transform .3s, top .3s, transform-origin .3s, background-color .3s;
 		transition-timing-function: ease-out; }
 
 	& .bmid {
 		top: calc(50% - 0.5px);
-		transition: opacity .1s;
+		transition: background-color .3s;
 		transition-timing-function: ease-out; }
 
 	& .bbot {
 		bottom: 0;
 		transform-origin: 100% -100%;
-		transition: transform .4s, bottom .4s, transform-origin .4s;
+		transition: transform .3s, bottom .3s, transform-origin .3s, background-color .3s;
 		transition-timing-function: ease-out; }
 	
 	&.is-clicked {
@@ -104,8 +103,31 @@
 			transform: translateY(-50%) rotate(-45deg);
 			transform-origin: 50% 50%; }
 		& .bmid {
-			opacity: 0; }
+			transition: background-color .1s;
+			background-color: rgba(0,0,0,0); }
 		& .bbot {
 			bottom: 50%;
 			transform: translateY(50%) rotate(45deg);
 			transform-origin: 50% 50%; }}}
+
+// Standard button 
+.btn {
+	position: relative;
+	display: block;
+	height: 45px;
+	width: 200px;
+	text-align: center;
+	font-size: em(11px);
+	line-height: 45px;
+	text-transform: uppercase;
+	font-weight: $font-weight--bold;
+	color: #fff;
+	white-space: nowrap;
+	transition: transform .5s, box-shadow .5s;
+	
+	&:active { 
+		box-shadow: none;
+		transform: scale(.95); }
+
+	@include min-768 {
+		font-size: em(12px); }}

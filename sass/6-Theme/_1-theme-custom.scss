@@ -3,3 +3,10 @@
 // Start code here 
 
 
+.btn--primary {
+	background-color: $first;
+	box-shadow: 0 3px 15px rgba(72, 127, 243, .1); }
+
+.btn--secondary {
+	background-color: $second;
+	box-shadow: 0 3px 15px rgba(243, 175, 72, .1); }

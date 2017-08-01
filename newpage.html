@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,7 +16,7 @@
   <meta name="google-site-verification" content="igFutBchMHaAVAweS-RrSlwFpKQdNGRtIJseYjl5SwKA" /> <!-- To change for a project / 1 / -->
 
   <!-- Web site's Title -->
-  <title>onepage – Beautifully designed & coded websites</title> <!-- To change for a project / 2 / -->
+  <title>Newpage onepage – Beautifully designed & coded websites</title> <!-- To change for a project / 2 / -->
 
   <!-- meta VIEWPORT -->
   <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1" />
@@ -33,7 +33,7 @@
   
   <!-- start SEO / 5 / -->
   <!-- General meta tags -->
-  <meta class="mtitle" name="pagename" content="onepage" /> <!-- Title -->
+  <meta class="mtitle" name="pagename" content="Newpage onepage" /> <!-- Title -->
   <meta class="mdesc" name="description" content="Beautifully designed & coded websites." /> <!-- Desc -->
   <meta class="mkey" name="keywords" content="shop, shopping, marketing, landing page, modern landing page" /> <!-- Keywords -->
   <meta name="Classification" content="Marketing" /> <!-- Clasification of MyProject-->
@@ -47,18 +47,18 @@
   <meta name="robots" content="noodp" />
 
   <!-- Apple meta tags -->
-  <meta class="mtitle" name="apple-mobile-web-app-title" content="onepage" /> <!-- Mobile / Web app Title -->
+  <meta class="mtitle" name="apple-mobile-web-app-title" content="Newpage onepage" /> <!-- Mobile / Web app Title -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-touch-fullscreen" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" /> <!-- iOS status bar Color -->
 
   <!-- Windows 8 meta tags -->
-  <meta class="mtitle" name="application-name" content="onepage" /> <!-- Title -->
+  <meta class="mtitle" name="application-name" content="Newpage onepage" /> <!-- Title -->
 
   <!-- Open Graph meta tags -->
-  <meta class="mtitle" property="og:title" content="onepage" /> <!-- Title -->
+  <meta class="mtitle" property="og:title" content="Newpage onepage" /> <!-- Title -->
   <meta class="mdesc" property="og:description" content="Beautifully designed & coded websites." /> <!-- Desc -->
-  <meta class="murl" property="og:url" content="https://lazareric.com" /> <!-- URL -->
+  <meta class="murl" property="og:url" content="https://lazareric.com/newpage" /> <!-- URL -->
   <meta property="og:site_name" content="onepage" /> <!-- Site name -->
   <meta property="og:image" content="https://lazareric.com/img/image-share.jpg" /> <!-- Share image for Social Media. "image-share.jpg", size: 2400x1260 -->
   <meta property="og:image:type" content="image/jpg" />
@@ -68,15 +68,15 @@
   <meta property="og:type" content="website" />
 
   <!-- Twitter meta tags -->
-  <meta class="mtitle" name="twitter:title" content="onepage" /> <!-- Title -->
+  <meta class="mtitle" name="twitter:title" content="Newpage onepage" /> <!-- Title -->
   <meta class="mdesc" name="twitter:description" content="Beautifully designed & coded websites." /> <!-- Desc -->
-  <meta class="murl" name="twitter:url" content="https://lazareric.com" /> <!-- URL -->
+  <meta class="murl" name="twitter:url" content="https://lazareric.com/newpage" /> <!-- URL -->
   <meta name="twitter:image" content="https://lazareric.com/img/image-share.jpg" /> <!-- Share image for Social Media. "image-share.jpg", size: 2400x1260 -->
   <meta name="twitter:card" content="summary" />
 
   <!-- HTML meta links -->
-  <link class="murlhref" rel="canonical" href="https://lazareric.com" /> <!-- Canonical link of the page -->
-  <link class="murlhref" rel="bookmark" title="onepage" href="https://lazareric.com" /> <!-- Bookmark meta info -->
+  <link class="murlhref" rel="canonical" href="https://lazareric.com/newpage" /> <!-- Canonical link of the page -->
+  <link class="murlhref" rel="bookmark" title="onepage" href="https://lazareric.com/newpage" /> <!-- Bookmark meta info -->
   <link rel="image_src" href="https://lazareric.com/img/image-share.jpg" /> <!-- Share image for Social Media. "image-share.jpg", size: 2400x1260 -->
   <!-- end SEO -->
 
@@ -189,6 +189,9 @@
       <!-- Newpage page -->
       <div class="offpage__content newpage-page">
         <!-- Newpage page content -->
+        <div class="page-box">
+          <p class="op-title">Some content here</p>
+        </div>
       </div>
       <!-- Contact page -->
       <div class="offpage__content contact-page">
@@ -324,7 +327,7 @@
         $('.about-page').css('display','block');
         $('body').animate({scrollTop: '0'}, 0);
         $('.offpage__content').animate({scrollTop: '0'}, 0);
-
+        
         $('.newpage-page, .contact-page').css('display','none');
 
         if($('body').hasClass('offpage--half')) {
@@ -530,6 +533,12 @@
         }
       });
       header.init();
+    });
+
+
+// *** ONLY FOR NEW PAGES, INITIATION ********************************************************************
+    $(function(){
+      $('.newpage-link').click();
     });
     
   </script>

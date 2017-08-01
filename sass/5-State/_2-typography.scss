@@ -15,13 +15,33 @@ p,.p,.lead {
   font-weight: $font-weight--regular; }
 
 p,.p {
-  font-size: em(16px); }
+  font-size: em(13px);
+
+  @include min-480 {
+    font-size: em(14px); }
+
+  @include min-768 {
+    font-size: em(15px); }
+
+  @include min-1200 {
+    font-size: em(16px); }}
 
 .lead {
-  font-size: em(18px); }
+  font-size: em(15px); 
+  font-weight: $font-weight--bold;
 
-// p: 
-// lead: 
+  @include min-640 {
+    font-size: em(16px); }
+
+  @include min-980 {
+    font-size: em(17px); }
+
+  @include min-1200 {
+    font-size: em(18px);
+    font-weight: $font-weight--regular; }}
+
+// p: feature text 
+// lead: hero lead
 
 
 // -- Headings -- 
@@ -29,10 +49,10 @@ p,.p {
 // .h1-h6 and .p exist, if we need to use that class in other HTML element, than h1-h6 or p
 
 
-// h1: 
-// h2: 
-// h3: 
-// h4: 
+// h1: Hero title
+// h2: Footer title 
+// h3: Page title 
+// h4: Feature title 
 // h5: 
 // h6: 
 
@@ -41,26 +61,80 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family--primary;
   font-weight: $font-weight--regular;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 0; }
 
 h1, .h1 {
-  font-size: em(20px); }
+  font-size: em(25px); 
+
+  @include min-480 {
+    font-size: em(27px); }
+
+  @include min-640 {
+    font-size: em(29px); }
+
+  @include min-768 {
+    font-size: em(31px); }
+
+  @include min-980 {
+    font-size: em(33px); }
+
+  @include min-1100 {
+    font-size: em(35px); }
+
+  @include min-1200 {
+    font-size: em(40px); }}
 
 h2, .h2 {
-  font-size: em(18px); }
+  font-size: em(24px); 
+  
+  @include min-480 {
+    font-size: em(25px); }
+
+  @include min-640 {
+    font-size: em(26px); }
+
+  @include min-768 {
+    font-size: em(27px); }
+
+  @include min-980 {
+    font-size: em(28px); }
+
+  @include min-1100 {
+    font-size: em(29px); }
+
+  @include min-1200 {
+    font-size: em(32px); }}
 
 h3, .h3 {
-  font-size: em(16px); }
+  font-size: em(18px); 
+
+  @include min-480 {
+    font-size: em(19px); }
+
+  @include min-640 {
+    font-size: em(20px); }
+
+  @include min-768 {
+    font-size: em(21px); }
+
+  @include min-1200 {
+    font-size: em(22px); }}
 
 h4, .h4 {
-  font-size: em(14px); }
+  font-size: em(16px);
+
+  @include min-768 {
+    font-size: em(17px); }
+
+  @include min-1200 {
+    font-size: em(18px); }}
 
 h5, .h5 {
-  font-size: em(12px); }
+  font-size: em(14px); }
 
 h6, .h6 {
-  font-size: em(10px); }
+  font-size: em(12px); }
 
 
 

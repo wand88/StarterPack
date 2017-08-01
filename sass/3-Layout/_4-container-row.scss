@@ -16,7 +16,13 @@
 .container {
   @extend %container; } 
 
+.container-1200-1000 {
+	@extend %container;
 
+	@include min-1200 {
+		height: 490px;
+		width: 1000px;
+		top: 30px; }}
 
 // --- Row --- 
 

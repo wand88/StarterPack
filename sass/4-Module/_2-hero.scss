@@ -3,3 +3,109 @@
 // Start code here 
 
 
+.hero {
+	position: relative;
+	height: 609px;
+	width: 100%;
+	background-image: url('../img/raster/1hero-xs.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+
+	@include min-480 {
+		height: 613px; }
+
+	@include min-640 {
+		height: 622px; }
+
+	@include min-768 {
+		height: 626px;
+		background-image: url('../img/raster/1hero-s.jpg'); }
+
+	@include min-980 {
+		height: 635px; }
+
+	@include min-1100 {
+		height: 639px; }
+
+	@include min-1200 {
+		height: 610px;
+		background-image: url('../img/raster/1hero-l.jpg'); }}
+
+.hero__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 173, 51, 0.5); }
+
+.hero__title {
+	margin-top: 90px;
+	font-weight: $font-weight--black;
+	text-align: center;
+	transform: translateY(80px);
+	opacity: 0;
+	transition: transform 1.15s, opacity 1.15s;
+	transition-timing-function: ease;
+
+	@include min-1200 {
+		padding-top: 65px;
+		text-align: left; }}
+
+.loaded .hero__title {
+	opacity: 1;
+	transform: translateY(0); }
+
+.hero__lead {
+	margin-top: 15px;
+	text-align: center;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: transform 1s, opacity 1s;
+	transition-timing-function: ease;
+
+	@include min-1200 {
+		text-align: left; }}
+
+.loaded .hero__lead {
+	opacity: 1;
+	transform: translateY(0); }
+
+// Promo 
+.hero__promo {
+	position: relative;
+	display: block;
+	width: 238.78px;
+	height: 260px;
+	margin: 0 auto;
+	transform: translateY(100px);
+	transition: transform 2s;
+	transition-timing-function: ease-out;
+
+	& a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.1);
+
+		@include min-1200 {
+			transition: transform .5s, box-shadow .5s;
+
+			&:active {
+				box-shadow: none;
+				transform: scale(.95) translateY(15px);	}}	}
+
+	& img {
+		border-radius: 5px 5px 0 0; }
+
+	@include min-1200 {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 450px;
+		height: 490px; }}
+
+.loaded .hero__promo {
+	transform: translateY(0); }

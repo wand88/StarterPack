@@ -24,13 +24,13 @@
 	@media only screen and (min-width: 1200px) {
 		transition: transform .5s, color .5s, background-color .5s; }}
 
-.about .btn-0, .contact .btn-0 {
+.about .btn-0, .contact .btn-0, .newpage .btn-0 {
 	color: #fff;
 	background-color: $first; }
 
 .headroom--not-top .btn-0 {
 	color: #fff;
-	background-color: $first; }
+	background-color: #487ff3; }
 
 // Mobile menu button 
 .bmenu { 
@@ -73,7 +73,7 @@
 	background-color: #fff;
 	border-radius: 1px; }
 
-.about .btop, .about .bmid, .about .bbot, .contact .btop, .contact .bmid, .contact .bbot {
+.about .btop, .about .bmid, .about .bbot, .contact .btop, .contact .bmid, .contact .bbot, .newpage .btop, .newpage .bmid, .newpage .bbot {
 	background-color: #000; }
 
 .headroom--not-top .btop, .headroom--not-top .bmid, .headroom--not-top .bbot {
@@ -110,7 +110,7 @@
 			transform: translateY(50%) rotate(45deg);
 			transform-origin: 50% 50%; }}}
 
-// Standard button 
+// Button 
 .btn {
 	position: relative;
 	display: block;

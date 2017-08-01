@@ -21,21 +21,31 @@
 		transition: background .5s; }}
 	
 .about .header {
-	background: hsla(40, 88%, 93%, 1); 
+	background: hsla(55, 91%, 82%, 0.4);
 	
 	@media only screen and (min-width: 1200px) {
 		width: auto;
 		background: transparent; }}
 	
 .contact .header {
-	background: hsla(90, 88%, 93%, 1); 
+	background: hsla(110, 91%, 82%, 0.4);
+
+	@media only screen and (min-width: 1200px) {
+		width: auto;
+		background: transparent; }}
+
+.newpage .header {
+	background: hsla(170, 91%, 82%, 0.4);
 
 	@media only screen and (min-width: 1200px) {
 		width: auto;
 		background: transparent; }}
 
 .headroom--not-top {
-	background: #fff; }
+	background: rgba(255,255,255,.9); 
+
+	@include min-1200 {
+		background: rgba(255,255,255,.95); }}
 
 // Logo
 .logo {
@@ -45,6 +55,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 450;
+	cursor: pointer;
 
 	@media only screen and (min-width: 1200px) {
 		left: 24px;
@@ -78,8 +89,20 @@
 	@media only screen and (min-width: 1200px) {
 		transition: fill .5s; }}
 
-.about .logo-path, .contact .logo-path {
+.about .logo-path {
 	fill: #000; 
+
+	@media only screen and (min-width: 1200px) {
+		fill: #fff; }}
+
+.contact .logo-path {
+	fill: #000;
+
+	@media only screen and (min-width: 1200px) {
+		fill: #fff; }}
+
+.newpage .logo-path {
+	fill: #000;
 
 	@media only screen and (min-width: 1200px) {
 		fill: #fff; }}
@@ -116,7 +139,7 @@
 	@media only screen and (min-width: 1200px) {
 		transition: opacity .3s, color .5s; }}
 
-.about .menu__item-link, .contact .menu__item-link  {
+.about .menu__item-link, .contact .menu__item-link, .newpage .menu__item-link {
 	color: #000; }
 
 .menu__item-button {

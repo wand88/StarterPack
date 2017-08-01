@@ -62,15 +62,18 @@ $grey: #ddd;
 // Color naming: http://chir.ag/projects/name-that-color 
 
 
-$cornflower-blue: #487ff3;
-$sunshade: #ffad33;
+$cornflower-blue: rgba(72, 127, 243, 1);
+$casablanca: rgba(243, 175, 72, 1);
+$pastel-green: rgba(111, 229, 134, 1);
+$veggie: #ffad33;
 
 
 // -- Color Usage -- 
 
 
 $first: $cornflower-blue;
-$second: $sunshade;
+$second: $casablanca;
+$third: $pastel-green;
 $color-shadow: rgba($black, .08);
 
 
@@ -116,6 +119,12 @@ $palettes: (
   ),
   second: (
     base: $second
+  ),
+  third: (
+    base: $third
+  ),
+  veggie: (
+    base: $veggie
   )
 );
 
@@ -124,3 +133,4 @@ $palettes: (
 
 
 $tr: cubic-bezier(0.77, 0, 0.175, 1);
+$iv: 2s;

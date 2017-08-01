@@ -6,6 +6,45 @@
 .footer {
 	position: relative;
 	width: 100%;
-	height: 100px;
-	background-color: #fff;
-	box-shadow: 0 -1px 0 rgba(0,0,0,.08); }
+	height: 500px;
+	background: url('../img/raster/1footer-xs.jpg') no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	overflow: hidden;
+
+	@include min-768 {
+		background: url('../img/raster/1footer-s.jpg') no-repeat; }
+
+	@include min-1200 {
+		background: url('../img/raster/1footer-l.jpg') no-repeat; }}
+
+.footer-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 0 40px;
+	overflow: hidden;
+	background: rgba(72, 127, 243, .5); }
+
+.footer-title {
+	margin: 0 auto;
+	max-width: 320px; 
+	margin-top: 75px;
+	margin-bottom: 50px;
+
+	@include min-768 {
+		max-width: 370px; }
+
+	@include min-1200 {
+		max-width: 435px;
+		margin-top: 85px;
+		margin-bottom: 60px;
+		transform: translateY(-15px);
+    opacity: 0;
+
+    &.inview {
+      transform: translateY(0);
+      opacity: 1;
+      transition: opacity 2s $tr, transform 2s $tr; }}}

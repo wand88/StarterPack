@@ -14,7 +14,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: .4px;
-	color: #487ff3;
+	color: $first;
 	background-color: #fff;
 	transition: transform .5s, color .3s, background-color .3s;
 	
@@ -30,7 +30,7 @@
 
 .headroom--not-top .btn-0 {
 	color: #fff;
-	background-color: #487ff3; }
+	background-color: $first; }
 
 // Mobile menu button 
 .bmenu { 

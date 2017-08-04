@@ -47,7 +47,7 @@
 	text-align: center;
 	transform: translateY(80px);
 	opacity: 0;
-	transition: transform 1.15s, opacity 1.15s;
+	transition: transform 1.15s 1.5s, opacity 1.15s 1.5s;
 	transition-timing-function: ease;
 
 	@include min-1200 {
@@ -63,7 +63,7 @@
 	text-align: center;
 	opacity: 0;
 	transform: translateY(50px);
-	transition: transform 1s, opacity 1s;
+	transition: transform 1s 1.5s, opacity 1s 1.5s;
 	transition-timing-function: ease;
 
 	@include min-1200 {
@@ -81,7 +81,7 @@
 	height: 260px;
 	margin: 0 auto;
 	transform: translateY(100px);
-	transition: transform 2s;
+	transition: transform 2s 1.5s;
 	transition-timing-function: ease-out;
 
 	& a {
@@ -95,7 +95,7 @@
 
 			&:active {
 				box-shadow: none;
-				transform: scale(.95) translateY(15px);	}}	}
+				transform: scale(.95) translateY(15px);	}}}
 
 	& img {
 		border-radius: 5px 5px 0 0; }

@@ -6,46 +6,63 @@
 // Header
 .header {
 	position: fixed;
+	z-index: 400;
 	height: 60px;
 	width: 100%;
 	background: transparent;
-	z-index: 400;
 	top: 0;
 	right: 0;
 	font-weight: 600;
 	line-height: 60px;
 	transition: background .3s;
+	opacity: 0;
+	transform: translateY(-15px);
 
 	@media only screen and (min-width: 1200px) {
 		box-shadow: none;
 		transition: background .5s; }}
-	
+
+.loaded .header {
+	opacity: 1;
+	transform: translateY(0);
+	transition: background .3s, opacity 1.5s $tr 2s, transform 1.5s $tr 2s; }
+
 .about .header {
-	background: hsla(55, 91%, 82%, 0.4);
+	background: hsla(152, 91%, 82%, 0.4);
+	transition: background .3s;
+	transform: none;
 	
 	@media only screen and (min-width: 1200px) {
 		width: auto;
-		background: transparent; }}
+		background: transparent;
+		transition: background .5s; }}
 	
 .contact .header {
-	background: hsla(110, 91%, 82%, 0.4);
+	background: hsla(90, 91%, 82%, 0.4);
+	transition: background .3s;
+	transform: none;
 
 	@media only screen and (min-width: 1200px) {
 		width: auto;
-		background: transparent; }}
+		background: transparent;
+		transition: background .5s; }}
 
 .newpage .header {
-	background: hsla(170, 91%, 82%, 0.4);
+	background: hsla(221, 91%, 82%, 0.4);
+	transition: background .3s;
+	transform: none;
 
 	@media only screen and (min-width: 1200px) {
 		width: auto;
-		background: transparent; }}
+		background: transparent;
+		transition: background .5s; }}
 
 .headroom--not-top {
 	background: rgba(255,255,255,.9); 
 
 	@include min-1200 {
 		background: rgba(255,255,255,.95); }}
+
 
 // Logo
 .logo {

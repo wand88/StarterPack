@@ -9,16 +9,14 @@
   width: 100%;
   min-height: 100%;
   height: auto;
-  opacity: 1;
   background: #fff;
-  z-index: 100;
-  animation: fadeIn .7s;
-  transition: transform .5s, opacity .3s, display 0s 0s; }
+  animation: fadeIn .5s;
+  transition: transform .5s, display 0s 0s; }
 
 .offpage-active .main {
   display: none;
   opacity: 0;
-  transition: transform .5s, opacity .3s, display 0s .3s;
+  transition: transform .5s, display 0s .3s;
 
   @media only screen and (min-width: 1200px) {
     display: block;
@@ -26,4 +24,35 @@
     opacity: 1;
     transform: translateX(-14%); }}
 
-    
+.homepage-load {
+  position: relative;
+  z-index: 100;
+  opacity: 0;
+  transform: scale(.9);
+  transform-origin: 50% 10%; 
+
+  @include min-1200 {
+    transform-origin: 50% 40%; }}
+
+.loaded .homepage-load {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1.5s 1s, transform 1.5s 1s;
+  transition-timing-function: $tr; }
+
+.rect-load {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  transform: scale(.87);
+  z-index: 50; 
+
+  @include min-768 {
+    transform: scale(.9); }}
+
+.loaded .rect-load {
+  transform: scale(1);
+  transition: transform 1.5s $tr; }
+
+  

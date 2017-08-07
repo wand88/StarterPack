@@ -18,7 +18,7 @@
 	opacity: 0;
 	transform: translateY(-15px);
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		box-shadow: none;
 		transition: background .5s; }}
 
@@ -32,7 +32,7 @@
 	transition: background .3s;
 	transform: none;
 	
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		width: auto;
 		background: transparent;
 		transition: background .5s; }}
@@ -42,7 +42,7 @@
 	transition: background .3s;
 	transform: none;
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		width: auto;
 		background: transparent;
 		transition: background .5s; }}
@@ -52,80 +52,75 @@
 	transition: background .3s;
 	transform: none;
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		width: auto;
 		background: transparent;
 		transition: background .5s; }}
 
 .headroom--not-top {
-	background: rgba(255,255,255,.9); 
+	background: rgba(255,255,255,.9);
+	box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, 0.34);
 
 	@include min-1200 {
-		background: rgba(255,255,255,.95); }}
+		background: rgba(255,255,255,.95); }
+
+	& .logo {
+		@include min-1200 {
+			transform: scale(.8); }}
+
+	& .logo-r {
+		fill: $first; }
+
+	& .logo-m {
+		fill: #fff; }}
 
 
 // Logo
 .logo {
 	display: inline-block;
 	line-height: 0;
-	top: 17px;
-	left: 50%;
+	top: 10px;
+	left: 50%;	
 	transform: translateX(-50%);
+	transform-origin: 0 0;
 	z-index: 450;
 	cursor: pointer;
+	user-select: none;
+	transition: opacity .3s, width .3s, height .3s, transform .3s;
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		left: 24px;
-		transform: none; }
+		width: 50px;
+		height: 50px;
+		transform: none;
+		transition: opacity .5s, width .5s, height .5s, transform .5s; 
 
-	&:before {
-		content: '';
-		display: block;
-		position: absolute;
-		width: 55px;
-		height: 55px;
-		background: #000;
-		border-radius: 50%;
-		z-index: -1;
-		opacity: 0;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
-		transform-origin: center;
-		transition: opacity .3s; }
+		&:hover {
+		opacity: .5; }}
+
 	&:active {
-		&:before {
-			opacity: .05; 
-			
-			@media only screen and (min-width: 1200px) {
-				opacity: 0; }}}}
+		transform: scale(.95) translateX(-50%);
 
-.logo-path {
+		@include min-1200 {
+			transform: scale(.95); }}}
+
+.logo-r, .logo-m {
 	transition: fill .3s; 
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		transition: fill .5s; }}
 
-.about .logo-path {
-	fill: #000; 
+.about .logo-r, .contact .logo-r, .newpage .logo-r {
+	fill: $first; 
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		fill: #fff; }}
 
-.contact .logo-path {
-	fill: #000;
+.about .logo-m, .contact .logo-m, .newpage .logo-m {
+	fill: #fff; 
 
-	@media only screen and (min-width: 1200px) {
-		fill: #fff; }}
-
-.newpage .logo-path {
-	fill: #000;
-
-	@media only screen and (min-width: 1200px) {
-		fill: #fff; }}
-
-.headroom--not-top .logo-path {
-	fill: #000; }
+	@include min-1200 {
+		fill: $first; }}
 
 // Menu
 .menu {
@@ -153,7 +148,7 @@
 	&:hover {
 		opacity: .5; }
 
-	@media only screen and (min-width: 1200px) {
+	@include min-1200 {
 		transition: opacity .3s, color .5s; }}
 
 .about .menu__item-link, .contact .menu__item-link, .newpage .menu__item-link {
@@ -196,11 +191,11 @@
 		text-transform: uppercase;
 		font-weight: 700;
 		letter-spacing: .4px;
-		color: #487ff3; }}
+		color: $first; }}
 
 .menu-mob__item-button {
 	& a {
-		background: #487ff3;
+		background: $first;
 		color: #fff; }}
 
 

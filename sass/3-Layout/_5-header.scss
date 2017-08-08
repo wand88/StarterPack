@@ -25,7 +25,7 @@
 .loaded .header {
 	opacity: 1;
 	transform: translateY(0);
-	transition: background .3s, opacity 1.5s $tr 2s, transform 1.5s $tr 2s; }
+	transition: background .3s, opacity 1.5s $tr 2s, transform 1.5s $tr 2s, box-shadow .3s; }
 
 .about .header {
 	background: hsla(152, 91%, 82%, 0.4);

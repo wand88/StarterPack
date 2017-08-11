@@ -151,7 +151,7 @@
 
 .hide-all {
   display: none; }
-
+  
 
 // Hide-* and up
 
@@ -439,6 +439,14 @@
   .display-print-inline {
     display: inline; }
 }
+
+
+// Fade in 
+.fade-in {
+  opacity: 1; }
+
+.fade-out {
+  opacity: 0; }
 
 
 // Start custom Helper Classes, Hide and Display, for custom Breakpoints   

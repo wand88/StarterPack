@@ -27,7 +27,7 @@ body {
   // body is always 1em, I change font-size's in typography as I would
   line-height: 1.5;
   color: #222;
-  background-color: hsl(219, 100%, 97%);
+  background-color: #fff;
   margin:0;
   padding:0;
   font-weight: normal;
@@ -37,8 +37,7 @@ body {
   min-height: 100%; // Fallback to "vh" unit 
   min-height: 100vh;
   cursor: auto;
-  overflow-x: hidden; } 
-
+  overflow-x: hidden; }
 
 
 // --- Other Elements ---

@@ -59,19 +59,14 @@
   min-height: 100%;
   height: auto;
   background: #fff; 
+  opacity: .2;
+  transition: opacity .7s;
 
   @media only screen and (min-width: 1200px) {
     position: relative;
     min-height: unset;
     height: calc(100% - 60px);
     overflow: hidden; }}
-
-.offpage__body--loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 1; }
   
 .offpage__content {
   display: none;
@@ -80,6 +75,7 @@
   height: auto;
   padding: 100px 30px 145px 30px;
   z-index: 2;
+  animation: fadeIn 1s;  
 
   @media only screen and (min-width: 1200px) {
     position: relative;
@@ -104,13 +100,7 @@
   padding-bottom: 0; }}
 
 .about-page, .contact-page, .newpage-page {
-  display: none;
-  opacity: 0;
-  animation: fadeInFilter 1s forwards;
-
-  @media only screen and (min-width: 1200px) {
-    opacity: 1;
-    animation: fadeInFilter 1s; }}
+  display: none; }
 
 .page-box {
   display: block;

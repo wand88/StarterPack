@@ -14,18 +14,12 @@
 	right: 0;
 	font-weight: 600;
 	line-height: 60px;
-	transition: background .3s;
-	opacity: 0;
-	transform: translateY(-15px);
+	transition: background .3s, box-shadow .3s;
+	animation: fadeIn .7s;
 
 	@include min-1200 {
 		box-shadow: none;
 		transition: background .5s; }}
-
-.loaded .header {
-	opacity: 1;
-	transform: translateY(0);
-	transition: background .3s, opacity 1.5s $tr 2s, transform 1.5s $tr 2s, box-shadow .3s; }
 
 .about .header {
 	background: hsla(152, 91%, 82%, 0.4);
@@ -57,24 +51,6 @@
 		background: transparent;
 		transition: background .5s; }}
 
-.headroom--not-top {
-	background: rgba(255,255,255,.9);
-	box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, 0.34);
-
-	@include min-1200 {
-		background: rgba(255,255,255,.95); }
-
-	& .logo {
-		@include min-1200 {
-			transform: scale(.8); }}
-
-	& .logo-r {
-		fill: $first; }
-
-	& .logo-m {
-		fill: #fff; }}
-
-
 // Logo
 .logo {
 	display: inline-block;
@@ -104,6 +80,12 @@
 		@include min-1200 {
 			transform: scale(.95); }}}
 
+.loaded .logo-r {
+	fill: #fff; }
+
+.loaded .logo-m {
+	fill: $first; }
+
 .logo-r, .logo-m {
 	transition: fill .3s; 
 
@@ -121,6 +103,26 @@
 
 	@include min-1200 {
 		fill: $first; }}
+		
+
+// Headroom 
+.headroom--not-top {
+	background: rgba(255,255,255,.9);
+	box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, 0.34);
+
+	@include min-1200 {
+		background: rgba(255,255,255,.95); }
+
+	& .logo {
+		@include min-1200 {
+			transform: scale(.8); }}
+
+	& .logo-r {
+		fill: $first; }
+
+	& .logo-m {
+		fill: #fff; }}
+
 
 // Menu
 .menu {
@@ -138,11 +140,11 @@
 	display: inline-block;
 	height: 100%;
 	line-height: 60px;
-	font-size: .75em;
+	font-size: em(12px);
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: $font-weight--bold;
 	letter-spacing: .4px;
-	color: #fff;
+	color: #333;
 	transition: opacity .3s, color .3s;
 
 	&:hover {
@@ -150,6 +152,9 @@
 
 	@include min-1200 {
 		transition: opacity .3s, color .5s; }}
+
+.loaded .menu__item-link {
+	color: #fff; }
 
 .about .menu__item-link, .contact .menu__item-link, .newpage .menu__item-link {
 	color: #000; }

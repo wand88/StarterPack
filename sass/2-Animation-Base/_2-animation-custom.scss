@@ -40,22 +40,3 @@
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut; }
-
-.fadeOut2 {
-  animation: fadeOut 1s; }
-
-// Loader pulse 
-@keyframes loaderPulse {
-  75%, 100% {
-    transform: translateX(-50%) scale(2);
-    opacity: 0; }}
-
-// Filter animation 
-@keyframes fadeInFilter {
-  from {
-    transform: translateY(30px);
-    opacity: 0; }
-
-  to {
-    transform: none;
-    opacity: 1; }}

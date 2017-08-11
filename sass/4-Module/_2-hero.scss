@@ -45,33 +45,17 @@
 	margin-top: 90px;
 	font-weight: $font-weight--black;
 	text-align: center;
-	transform: translateY(80px);
-	opacity: 0;
-	transition: transform 1.15s 1.5s, opacity 1.15s 1.5s;
-	transition-timing-function: ease;
 
 	@include min-1200 {
 		padding-top: 65px;
 		text-align: left; }}
 
-.loaded .hero__title {
-	opacity: 1;
-	transform: translateY(0); }
-
 .hero__lead {
 	margin-top: 15px;
 	text-align: center;
-	opacity: 0;
-	transform: translateY(50px);
-	transition: transform 1s 1.5s, opacity 1s 1.5s;
-	transition-timing-function: ease;
 
 	@include min-1200 {
 		text-align: left; }}
-
-.loaded .hero__lead {
-	opacity: 1;
-	transform: translateY(0); }
 
 // Promo 
 .hero__promo {
@@ -80,9 +64,6 @@
 	width: 238.78px;
 	height: 260px;
 	margin: 0 auto;
-	transform: translateY(100px);
-	transition: transform 2s 1.5s;
-	transition-timing-function: ease-out;
 
 	& a {
 		display: inline-block;
@@ -106,6 +87,3 @@
 		right: 0;
 		width: 450px;
 		height: 490px; }}
-
-.loaded .hero__promo {
-	transform: translateY(0); }

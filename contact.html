@@ -101,14 +101,8 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div class="rect-load hide-print"></div>
-  
-  <!-- start Preloader -->
-  <div class="preloader bg-whites--base fixed hide-print">
-    <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">    
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="45" height="45"><path d="M291.7 512h-70c-190.7-7.7-215.7-82.7-221.7-221v-70c6.7-141.3 31.7-216.7 221.7-221h70c189.3 4 214.3 80 220.3 221v70c-5.7 138.7-31 213.3-220.3 221z" fill="#487ff3"/><path d="M314 170v172h-116v-172h116m20-20h-156v212h156v-212z" fill="#fff"/></svg>
-      <span class="loader"></span>
-    </div>
+  <div id="header-loader" class="hide-print">
+    <div id="header-loader-under-bar"></div>
   </div>
 
   <!-- start print only content -->
@@ -154,8 +148,8 @@
   <header id="header" class="header clearfix">  
     <!-- logo -->
     <svg class="logo fixed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
-      <path class="logo-r" d="M291.7 512h-70c-190.7-7.7-215.7-82.7-221.7-221v-70c6.7-141.3 31.7-216.7 221.7-221h70c189.3 4 214.3 80 220.3 221v70c-5.7 138.7-31 213.3-220.3 221z" fill="#fff"/>
-      <path class="logo-m" d="M314 170v172h-116v-172h116m20-20h-156v212h156v-212z" fill="#487ff3"/>
+      <path class="logo-r" d="M291.7 512h-70c-190.7-7.7-215.7-82.7-221.7-221v-70c6.7-141.3 31.7-216.7 221.7-221h70c189.3 4 214.3 80 220.3 221v70c-5.7 138.7-31 213.3-220.3 221z" fill="#487ff3"/>
+      <path class="logo-m" d="M314 170v172h-116v-172h116m20-20h-156v212h156v-212z" fill="#fff"/>
     </svg>
     <!-- Mob menu button -->
     <div class="bmenu bmenu__right x1 fixed hide-980">
@@ -187,7 +181,6 @@
       <a href="javascript:void(0)" class="close close-desk float-left hide-all"><span></span></a>
     </div>  
     <div class="offpage__body">
-      <span class="loader-2 offpage__body--loader hide-all display-1200-block"></span>
       <!-- About page -->
       <div class="offpage__content about-page">
         <!-- About page content -->
@@ -271,6 +264,7 @@
     </main>
   </div>
 
+
 <!-- start SCRIPTS -->
   <!-- jQuery 3.2.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -281,17 +275,28 @@
   <!-- Landing page, custom jQuery -->
   <script>
 
+    // Loader 
+    NProgress.configure({
+        template: '<div class="bar" role="bar"></div>',
+        parent: '#header-loader',
+        showSpinner: false,
+        easing: 'ease',
+        minimum: 0.3,
+        speed: 500,
+    });
+
+    NProgress.start();
+
     // ImagesLoaded for preloader 
-    $(function(){
+    $(function(){      
       $('.hero').imagesLoaded( { background: true }, function() {
-        el = $('.preloader, .preloader-logo, .loader');
-        el2 = $('body');
-        el.addClass('fadeOut2');
-        el.on('webkitAnimationEnd oanimationend msAnimationEnd animationend',
-          function () {
-          el.css('display', 'none')
-        });
-        el2.addClass('loaded');
+        setTimeout(function() {
+          $('body').addClass('loaded');
+          $('.homepage-load, .offpage__body').addClass('fade-in');
+          $('#header-loader-under-bar').addClass('fade-out');
+
+          NProgress.done();
+        }, 1000);
       });
     });
 
@@ -334,27 +339,16 @@
     });
 
 
-    // *** All Pages ****************************************************
-
-    $(function() {
-      // Global loader code   
-      $(document).ajaxStart(function(){
-        $('.loader-2').fadeIn();
-      });
-      $(document).ajaxSuccess(function(){
-        $('.loader-2').css('display', 'none');
-      });
-
-
 // ** NEW PAGE EDIT — ABOUT (page) 1 ****************************************************************************
+
 
       $('.about-link').click(function(){
         // All other stuff that needs to happen 
-        $('.about-page').css('display','block');
+        $('.about-page').css('display', 'block');
         $('body').animate({scrollTop: '0'}, 0);
         $('.offpage__content').animate({scrollTop: '0'}, 0);
-        
-        $('.newpage-page, .contact-page').css('display','none');
+
+        $('.newpage-page, .contact-page').css('display', 'none');
 
         if($('body').hasClass('offpage--half')) {
           $('body').removeClass('offpage--half')
@@ -384,7 +378,14 @@
         // SEO end
 
         // Ajax load part of content from about.html
-        $('.about-page').load('about.html .page-box');        
+        $('.about-page').load('about.html .page-box');
+        NProgress.start();
+        $(document).ajaxSuccess( function() {
+          setTimeout(function() {
+            $('#header-loader-under-bar').addClass('fade-out');
+            NProgress.done();
+          }, 500);          
+        });
       });
 
 
@@ -392,11 +393,11 @@
 
       $('.newpage-link').click(function(){
         // All other stuff that needs to happen 
-        $('.newpage-page').css('display','block');
+        $('.newpage-page').css('display', 'block');
         $('body').animate({scrollTop: '0'}, 0);
         $('.offpage__content').animate({scrollTop: '0'}, 0);
         
-        $('.about-page, .contact-page').css('display','none');
+        $('.about-page, .contact-page').css('display', 'none');
 
         if($('body').hasClass('offpage--half')) {
           $('body').removeClass('offpage--half')
@@ -426,7 +427,14 @@
         // SEO end
 
         // Ajax load part of content from newpage.html
-        $('.newpage-page').load('newpage.html .page-box');        
+        $('.newpage-page').load('newpage.html .page-box');
+        NProgress.start();
+        $(document).ajaxSuccess( function() {
+          setTimeout(function() {
+            $('#header-loader-under-bar').addClass('fade-out');
+            NProgress.done();
+          }, 500);          
+        });        
       });
 
 
@@ -434,12 +442,12 @@
 
       $('.contact-link').click(function(){
         // All other stuff that needs to happen 
-        $('.contact-page').css('display','block');
+        $('.contact-page').css('display', 'block');
         $('body').animate({scrollTop: '0'}, 0);
         $('body').addClass('offpage--half');
         $('.offpage__content').animate({scrollTop: '0'}, 0);
         
-        $('.newpage-page, .about-page').css('display','none');
+        $('.newpage-page, .about-page').css('display', 'none');
 
         if($('body').hasClass('about')) {
           $('body').removeClass('about');   
@@ -466,9 +474,15 @@
         // SEO end
 
         // Ajax load part of content from contact.html
-        $('.contact-page').load('contact.html .page-box');        
+        $('.contact-page').load('contact.html .page-box');
+        NProgress.start();
+        $(document).ajaxSuccess( function() {
+          setTimeout(function() {
+            $('#header-loader-under-bar').addClass('fade-out');
+            NProgress.done();
+          }, 500);          
+        });
       });
-    });
 
 
 // ** NEW PAGE EDIT — Close and view HOMEPAGE (homepage) 4 ****************************************************************************
@@ -547,6 +561,12 @@
     });
 
 
+    // Back and Forward button event 
+    window.addEventListener('popstate', function() {
+      location.reload(true)
+    });
+
+
     // Headroom init 
     $(function() {
       var header = new Headroom(document.querySelector("#header"), {
@@ -560,7 +580,6 @@
       });
       header.init();
     });
-
 
 // *** ONLY FOR NEW PAGES, INITIATION ********************************************************************
     $(function(){

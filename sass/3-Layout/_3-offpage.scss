@@ -229,12 +229,6 @@
     margin-bottom: 50px;
     font-size: em(26px); }}
 
-.op-title--contact {
-  padding-top: 40px;
-
-  @media only screen and (min-width: 1200px) {
-    padding-top: 60px; }}
-
 .op-subtitle {
   display: block;
   margin-left: auto;
@@ -377,10 +371,7 @@
   color: #bbb;
   text-align: center;
   font-size: em(13px);
-  margin-top: 15px;
-
-  @include min-768 {
-    font-size: em(14px); }}
+  margin-top: 15px; }
 
 .last-p {
   color: #555;

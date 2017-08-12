@@ -33,25 +33,4 @@
   left: 0;
   width: 100%;
   height: 2px; }
-
-
-
-
-
-/*
-
-Use this jQuery, if using the preloader 
-
-// Preloader
-$('body').imagesLoaded( function() {
-	el = $('.preloader');
-	el.addClass('fadeOut-2');
-	el.on('webkitAnimationEnd oanimationend msAnimationEnd animationend',
-		function () {
-		el.css('display', 'none');	
-	});	
-});
-
-// + Apply classes to activate animation on page elements (like hero elemenents), header/page initiation, etc.
-
-*/
+  

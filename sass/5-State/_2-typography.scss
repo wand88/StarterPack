@@ -17,14 +17,8 @@ p,.p,.lead {
 p,.p {
   font-size: em(13px);
 
-  @include min-480 {
-    font-size: em(14px); }
-
-  @include min-768 {
-    font-size: em(15px); }
-
-  @include min-1200 {
-    font-size: em(16px); }}
+  @include min-640 {
+    font-size: em(14px); }}
 
 .lead {
   font-size: em(15px); 
@@ -85,49 +79,46 @@ h1, .h1 {
     font-size: em(40px); }}
 
 h2, .h2 {
-  font-size: em(24px); 
+  font-size: em(23px); 
   
   @include min-480 {
+    font-size: em(24px); }
+
+  @include min-640 {
     font-size: em(25px); }
 
-  @include min-640 {
+  @include min-768 {
     font-size: em(26px); }
 
-  @include min-768 {
+  @include min-980 {
     font-size: em(27px); }
 
-  @include min-980 {
+  @include min-1100 {
     font-size: em(28px); }
 
-  @include min-1100 {
-    font-size: em(29px); }
-
   @include min-1200 {
-    font-size: em(32px); }}
+    font-size: em(30px); }}
 
 h3, .h3 {
-  font-size: em(18px); 
+  font-size: em(17px); 
 
   @include min-480 {
-    font-size: em(19px); }
+    font-size: em(18px); }
 
   @include min-640 {
+    font-size: em(19px); }
+
+  @include min-768 {
     font-size: em(20px); }
 
-  @include min-768 {
-    font-size: em(21px); }
-
   @include min-1200 {
-    font-size: em(22px); }}
+    font-size: em(21px); }}
 
 h4, .h4 {
-  font-size: em(16px);
+  font-size: em(15px);
 
   @include min-768 {
-    font-size: em(17px); }
-
-  @include min-1200 {
-    font-size: em(18px); }}
+    font-size: em(16px); }}
 
 h5, .h5 {
   font-size: em(14px); }

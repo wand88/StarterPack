@@ -229,6 +229,12 @@
     margin-bottom: 50px;
     font-size: em(26px); }}
 
+.op-title--contact {
+  padding-top: 40px;
+
+  @media only screen and (min-width: 1200px) {
+    padding-top: 60px; }}
+    
 .op-subtitle {
   display: block;
   margin-left: auto;

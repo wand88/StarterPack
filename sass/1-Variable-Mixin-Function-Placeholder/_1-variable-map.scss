@@ -17,8 +17,8 @@ $base__line-height: 24px;
 // -- Font Family --
 
 
-$font-family--primary: 'Nunito Sans',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
-$font-family--secondary: 'Nunito Sans',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
+$font-family--primary: 'Montserrat',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
+$font-family--secondary: 'Montserrat',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica Neue', Arial, sans-serif;
 $font-family--tertiary: // Safari for OS X and iOS (San Francisco)
                         -apple-system,
                         // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
@@ -37,9 +37,11 @@ $font-family--print: Georgia,Cambria,'Times New Roman',Times,serif;
 // -- Font Weights --
 
 
+$font-weight--thin: 200;
 $font-weight--light: 300;
 $font-weight--regular: 400;
 $font-weight--medium: 500;
+$font-weight--semi-bold: 600;
 $font-weight--bold: 700;
 $font-weight--black: 900;
 

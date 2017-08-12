@@ -28,7 +28,7 @@ p,.p {
 
 .lead {
   font-size: em(15px); 
-  font-weight: $font-weight--bold;
+  font-weight: $font-weight--medium;
 
   @include min-640 {
     font-size: em(16px); }
@@ -37,7 +37,6 @@ p,.p {
     font-size: em(17px); }
 
   @include min-1200 {
-    font-size: em(18px);
     font-weight: $font-weight--regular; }}
 
 // p: feature text 
@@ -244,6 +243,9 @@ pre code {
 // --- Font Weight ---
 
 
+.font-weight--thin {
+  font-weight: $font-weight--thin; }
+
 .font-weight--light {
   font-weight: $font-weight--light; }
 
@@ -252,6 +254,9 @@ pre code {
 
 .font-weight--medium {
   font-weight: $font-weight--medium; }
+
+.font-weight--semi-bold {
+  font-weight: $font-weight--semi-bold; }
 
 .font-weight--bold {
   font-weight: $font-weight--bold; }

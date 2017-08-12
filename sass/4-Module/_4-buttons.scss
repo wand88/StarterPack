@@ -12,7 +12,7 @@
 	border-radius: 1px;
 	font-size: em(12px);
 	text-transform: uppercase;
-	font-weight: $font-weight--semi-bold;
+	font-weight: $font-weight--medium;
 	letter-spacing: .4px;
 	color: #fff;
 	background-color: $first;
@@ -108,10 +108,10 @@
 	height: 45px;
 	width: 200px;
 	text-align: center;
-	font-size: em(11px);
-	line-height: 45px;
+	font-size: em(12px);
+	line-height: 46px;
 	text-transform: uppercase;
-	font-weight: $font-weight--bold;
+	font-weight: $font-weight--medium;
 	color: #fff;
 	white-space: nowrap;
 	transition: transform .5s, box-shadow .5s;
